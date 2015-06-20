@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bulets>
+    
+    <object active="1" id="0">
+        <physic type="dynamic" subtype="shot" x="0" y="0.8">
+            <polygon>
+                <point x="1" y="-0.5">
+                </point>
+                <point x="1" y="0.5">
+                </point>
+                <point x="5" y="0.5">
+                </point>
+                <point x="5" y="-0.5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="animation" x="4" y="1" z="2002" >
+            <animations>
+                <animation name="wait" speedFPS="30" pathPList="textures/mobs/elf/bulletElf1_wait.plist" pathSprite="textures/mobs/elf/bulletElf1_wait.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+        
+        <ai type="shot">
+            <way speed="100">
+            </way>
+        </ai>
+    </object>
+    
+    <object active="1" id="1">
+        <physic type="dynamic" subtype="shot" x="0" y="0">
+            <polygon>
+                <point x="-0.5" y="-0.5">
+                </point>
+                <point x="-0.5" y="0.5">
+                </point>
+                <point x="0.5" y="0.5">
+                </point>
+                <point x="0.5" y="-0.5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="2002">
+            <sprite path="textures/mobs/boss/bullet1.png" x="0" y="0"></sprite>
+        </graphic>
+        
+        <ai type="shot">
+            <way speed="100">
+            </way>
+        </ai>
+    </object>
+    
+</bulets>

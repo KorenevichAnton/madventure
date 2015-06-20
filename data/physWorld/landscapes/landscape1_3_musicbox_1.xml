@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<world>
+    <camera>
+        <bounding minX_s="0" minY_s="0" maxX_s="2" maxY_s="2"/>
+        <preloading hor_s="2" ver_s="2"/>
+        <calculating hor_s="1" ver_s="1"/>
+    </camera>
+    
+    <landscape
+        swidth="2"
+        sheight="2"
+        dimensionX="32"
+        dimensionY="24"
+        >
+        
+        <square
+            sy="0"
+            sx="0"
+            
+            >
+            <object id="10000" x="0" y="0" />
+            
+            <object id="777" x="5" y="0" />
+            
+            <object id="0" x="16" y="1.5" />
+            <object id="2" x="1" y="12" />
+            <object id="20" x="10" y="9" />
+            <object id="21" x="5" y="14.5" />
+            <object id="22" x="11" y="20" />
+            
+            <object id="700" x="9" y="2" />
+            <object id="800" x="9" y="2" />
+            <object id="1100" x="9" y="4" />
+            
+            <object id="701" x="14" y="2" />
+            <object id="801" x="14" y="2" />
+            <object id="1101" x="14" y="4" />
+            
+            <object id="702" x="19" y="2" />
+            <object id="802" x="19" y="2" />
+            <object id="1102" x="19" y="4" />
+            
+            <object id="703" x="24" y="2" />
+            <object id="803" x="24" y="2" />
+            <object id="1103" x="24" y="4" />
+            
+            <object id="704" x="29" y="2" />
+            <object id="804" x="29" y="2" />
+            <object id="1104" x="29" y="4" />
+            
+            <object id="1000" x="8" y="9" />
+            
+            <object id="1112" x="6.5" y="12" />
+            
+            <object id="1112" x="11.5" y="12" />
+            
+            <object id="1113" x="16.5" y="12" />
+            
+            <object id="1114" x="21.5" y="12" />
+            
+            <object id="1115" x="26.5" y="12" />
+            
+            <object id="1116" x="31.5" y="12" />
+            
+            <object id="1110" x="16" y="10" />
+            
+            <object id="811" x="15" y="14" />
+            <object id="812" x="17" y="14" />
+            <object id="822" x="19" y="14" />
+            
+            <object id="813" x="4" y="23" />
+            <object id="814" x="6" y="23" />
+            
+            <object id="815" x="21" y="20" />
+            <object id="816" x="21" y="18" />
+            <object id="821" x="21" y="16" />
+            
+            <object id="4500" x="10" y="11" />
+            <object id="1200" x="11" y="23" />
+            
+            
+        </square>
+        
+        <square
+            sy="0"
+            sx="1"
+            
+            >
+            
+            <object id="1" x="16" y="1.5" />
+            
+            <object id="3" x="15" y="12" />
+            
+            
+            
+            
+            <object id="705" x="2" y="2" />
+            <object id="805" x="2" y="2" />
+            <object id="1105" x="2" y="4" />
+            
+            <object id="706" x="7" y="2" />
+            <object id="806" x="7" y="2" />
+            <object id="1106" x="7" y="4" />
+            
+            <object id="1116" x="4.5" y="12" />
+            <object id="1116" x="9.5" y="12" />
+            
+            <object id="1111" x="4.5" y="10" />
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="0"
+            
+            >
+            <object id="817" x="5" y="1" />
+            <object id="818" x="10" y="7" />
+            <object id="819" x="9" y="5" />
+            <object id="820" x="11" y="5" />
+            
+            <object id="26" x="24" y="3" />
+            
+            <object id="23" x="16" y="0.5" />
+            
+            <object id="900" x="25" y="7" />
+            
+            <object id="4" x="1" y="12" />
+            
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="1"
+            
+            >
+            <object id="5" x="15" y="12" />
+            
+            
+        </square>
+        
+        
+    </landscape>
+    
+</world>

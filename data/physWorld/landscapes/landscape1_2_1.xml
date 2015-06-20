@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<world>
+    <camera>
+        <bounding minX_s="0" minY_s="0" maxX_s="3" maxY_s="10"/>
+        <preloading hor_s="2" ver_s="2"/>
+        <calculating hor_s="1" ver_s="1"/>
+    </camera>
+    
+    <parallax>
+        <tile1
+        backgroundTile="textures/scenes/world/parallax/cave/background.jpg"
+        midgroundTile="textures/scenes/world/parallax/cave/averageground.png" />
+        <rect1
+        x_c="0" y_c="0" width_c="128" height_c="352" />
+    </parallax>
+    
+    <landscape
+        swidth="4"
+        sheight="11"
+        dimensionX="32"
+        dimensionY="24"
+        >
+        <!--bg_03.png-->
+        <square
+            sy="0"
+            sx="0"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            
+            <object id="2030" x="0" y="0"/>
+            <object id="2031" x="0" y="0"/>
+            <object id="2032" x="0" y="0"/>
+            <object id="2033" x="0" y="0"/>
+        </square>
+        
+        <square
+            sy="0"
+            sx="1"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            
+            <object id="26" x="31" y="8"/>
+            <object id="26" x="31" y="17"/>
+        </square>
+        
+        <square
+            sy="0"
+            sx="2"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            
+            <object id="911" x="7" y="6" />
+            
+            <object id="104" x="9" y="3.5" />
+            
+            <object id="161" x="15" y="2"/>
+            <object id="160" x="15" y="2" />
+            <object id="2108" x="15" y="4"/>
+            
+            <object id="161" x="29" y="2"/>
+            <object id="160" x="29" y="2" />
+            <object id="2109" x="29" y="4"/>
+            
+            <object id="161" x="22" y="3"/>
+            <object id="160" x="22" y="3" />
+            <object id="2110" x="22" y="5"/>
+            
+            <object id="2023" x="14" y="4"/>
+            <object id="2023" x="16" y="4"/>
+            <object id="50063" x="15" y="2.5"/>
+            
+            <object id="2022" x="21" y="5"/>
+            <object id="2022" x="22.5" y="5"/>
+            <object id="50064" x="22" y="3.5"/>
+            
+            <object id="2024" x="27" y="4"/>
+            <object id="2023" x="29" y="4"/>
+            <object id="2024" x="31" y="4"/>
+            <object id="50065" x="29" y="2.5"/>
+            
+            <object id="952" x="16" y="0"/>
+            
+        </square>
+        
+        <square
+            sy="0"
+            sx="3"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            
+            <object id="913" x="11" y="2" />
+            <object id="599" x="11" y="2" />
+            <object id="598" x="11" y="2" />
+            
+            
+            <object id="161" x="4" y="3"/>
+            <object id="160" x="4" y="3" />
+            <object id="2014" x="4" y="5"/>
+            
+            <object id="2023" x="2.5" y="5"/>
+            <object id="2022" x="4" y="5"/>
+            <object id="2023" x="5.5" y="5"/>
+            <object id="50066" x="4" y="3.5"/>
+            
+            <object id="26" x="26" y="14"/>
+            <object id="26" x="26" y="8"/>
+            
+            <object id="2600" x="23" y="0" />
+            
+            <object id="33001" x="17" y="2" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="0"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="1"
+            bgPath="bgCave_02.jpg"
+            
+            >
+            <object id="26" x="31" y="5"/>
+            <object id="26" x="31" y="14"/>
+            <object id="26" x="31" y="23"/>
+        </square>
+        
+        <square
+            sy="1"
+            sx="2"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            
+            
+            <object id="104" x="16" y="2"/>
+            
+            <object id="161" x="29" y="1"/>
+            <object id="160" x="29" y="1" />
+            <object id="2116" x="29" y="3"/>
+            
+            <object id="161" x="22" y="2"/>
+            <object id="160" x="22" y="2" />
+            
+            <object id="2023" x="27.5" y="3"/>
+            <object id="2024" x="29" y="3"/>
+            <object id="2024" x="30.5" y="3"/>
+            <object id="50061" x="29" y="1.5"/>
+            
+            <object id="2024" x="21" y="4"/>
+            <object id="2024" x="22.5" y="4"/>
+            <object id="50062" x="22" y="2.5"/>
+            
+            <object id="33001" x="7" y="3" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="3"
+            bgPath="bgCave_02.jpg"
+            
+            >
+            <object id="5106" x="15" y="4.5" />
+            <object id="5102" x="9.5" y="4.5" />
+            
+            <object id="82" x="9.5" y="3.5" />
+            <object id="83" x="16" y="2" />
+            
+            <object id="300" x="13" y="2"/>
+            
+            <object id="161" x="4" y="2"/>
+            <object id="160" x="4" y="2" />
+            
+            <object id="2023" x="2" y="4"/>
+            <object id="2023" x="4" y="4"/>
+            <object id="2022" x="6" y="4"/>
+            <object id="50060" x="4" y="2.5"/>
+            
+            <object id="26" x="27" y="5"/>
+            <object id="26" x="27" y="10"/>
+            <object id="26" x="27" y="15"/>
+            <object id="26" x="27" y="0"/>
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="0"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            
+            <object id="950" x="16" y="5" />
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="1"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            <object id="26" x="31" y="10"/>
+            <object id="26" x="31" y="20"/>
+            
+            <object id="951" x="16" y="5" />
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="2"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            
+            <object id="911" x="7" y="6" />
+            
+            <object id="104" x="9" y="3.5" />
+            
+            <object id="161" x="15" y="2"/>
+            <object id="160" x="15" y="2" />
+            <object id="2108" x="15" y="4"/>
+            
+            <object id="161" x="29" y="2"/>
+            <object id="160" x="29" y="2" />
+            <object id="2109" x="29" y="4"/>
+            
+            <object id="161" x="22" y="3"/>
+            <object id="160" x="22" y="3" />
+            <object id="2110" x="22" y="5"/>
+            
+            <object id="2023" x="14" y="4"/>
+            <object id="2023" x="16" y="4"/>
+            <object id="50063" x="15" y="2.5"/>
+            
+            <object id="2022" x="21" y="5"/>
+            <object id="2022" x="22.5" y="5"/>
+            <object id="50064" x="22" y="3.5"/>
+            
+            <object id="2024" x="27" y="4"/>
+            <object id="2023" x="29" y="4"/>
+            <object id="2024" x="31" y="4"/>
+            <object id="50065" x="29" y="2.5"/>
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="3"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            <!--
+             <object id="914" x="14" y="0" />
+             -->
+            <object id="26" x="27" y="5"/>
+            <object id="26" x="27" y="0"/>
+            <object id="27" x="27" y="15"/>
+            
+            <object id="161" x="4" y="3"/>
+            <object id="160" x="4" y="3" />
+            <object id="2014" x="4" y="5"/>
+            
+            <object id="2023" x="2.5" y="5"/>
+            <object id="2022" x="4" y="5"/>
+            <object id="2023" x="5.5" y="5"/>
+            <object id="50066" x="4" y="3.5"/>
+            
+            <object id="33001" x="18" y="2" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        
+        <square
+            sy="3"
+            sx="0"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            <object id="5102" x="17.5" y="5.5" />
+            <object id="5104" x="28" y="10" />
+            
+            <object id="33000" x="0" y="12" />
+            <object id="777" x="5" y="11"/>
+            
+            <object id="84" x="3" y="22" />
+            
+            <object id="20" x="10" y="-1"/>
+            
+            <object id="21" x="10" y="0"/>
+            
+            <object id="21" x="28" y="2"/>
+            
+            <object id="500" x="6" y="21"/>
+            
+            <object id="100" x="26" y="25"/>
+            
+            <object id="81" x="9" y="5" />
+            <object id="81" x="27" y="7" />
+            
+        </square>
+        
+        <square
+            sy="3"
+            sx="1"
+            bgPath="bgCave_02.jpg"
+            
+            >
+            
+            <object id="5103" x="20" y="17.5" />
+            <object id="5112" x="16" y="19" />
+            
+            <object id="82" x="16.5" y="15.5" />
+            <object id="301" x="20" y="15" />
+            
+            <object id="300" x="6" y="22" />
+            <object id="82" x="2.5" y="22.5" />
+            <object id="83" x="8.5" y="22" />
+            
+            <object id="101" x="11" y="9" />
+            
+            
+            <object id="22" x="31" y="4" />
+            <object id="23" x="31" y="12" />
+            <object id="24" x="30" y="23" />
+            
+            <object id="908" x="16" y="0" />
+            
+        </square>
+        
+        <square
+            sy="3"
+            sx="2"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            
+            
+            <object id="104" x="16" y="2"/>
+            
+            <object id="161" x="29" y="3"/>
+            <object id="160" x="29" y="3" />
+            <object id="2116" x="29" y="5"/>
+            
+            <object id="161" x="22" y="2"/>
+            <object id="160" x="22" y="2" />
+            
+            <object id="2023" x="27.5" y="5"/>
+            <object id="2024" x="29" y="5"/>
+            <object id="2024" x="30.5" y="5"/>
+            <object id="50061" x="29" y="3.5"/>
+            
+            <object id="2024" x="21" y="4"/>
+            <object id="2024" x="22.5" y="4"/>
+            <object id="50062" x="22" y="2.5"/>
+            
+            <object id="33001" x="7" y="3" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="3"
+            sx="3"
+            bgPath="bgCave_02.jpg"
+            
+            >
+            <object id="5105" x="10" y="5.5" />
+            <object id="5113" x="24" y="9" />
+            
+            <object id="82" x="9.5" y="2.5" />
+            
+            <object id="300" x="13" y="2"/>
+            
+            <object id="31" x="25" y="12"/>
+            
+            <object id="28" x="25" y="2"/>
+            
+            <object id="161" x="4" y="2"/>
+            <object id="160" x="4" y="2" />
+            
+            <object id="2023" x="2" y="4"/>
+            <object id="2023" x="4" y="4"/>
+            <object id="2022" x="6" y="4"/>
+            <object id="50060" x="4" y="2.5"/>
+            
+        </square>
+        
+        <square
+            sy="4"
+            sx="0"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            
+            <object id="5106" x="24" y="22" />
+            
+            <object id="5111" x="9" y="21" />
+            
+            <object id="82" x="20" y="21" />
+            <object id="85" x="22" y="20.5" />
+            <object id="83" x="25" y="20.5" />
+            <!--<object id="85" x="28" y="21" />-->
+            <object id="90" x="31" y="21" />
+            <object id="91" x="28" y="21.5" />
+            
+            
+            <object id="941" x="22" y="23"/>
+            <object id="3000" x="10" y="2.4"/>
+            
+            <object id="43" x="0" y="3"/>
+            <object id="44" x="0" y="15"/>
+            
+            <!--<object id="306" x="5" y="8"/>-->
+            <!--<object id="103" x="18" y="5"/>-->
+            
+            <object id="940" x="14" y="6" />
+            <object id="905" x="14" y="6" />
+            
+            <object id="105" x="14" y="3" />
+            
+            <object id="300" x="6" y="19" />
+            <object id="83" x="8.5" y="19" />
+            
+            <object id="904" x="16" y="2" />
+            
+            <object id="2" x="26" y="17"/>
+            
+        </square>
+        
+        <square
+            sy="4"
+            sx="1"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            <object id="5103" x="7" y="21" />
+            <object id="5102" x="10" y="16" />
+            
+            <object id="5105" x="3" y="1.5" />
+            <object id="5105" x="4" y="1" />
+            
+            <object id="86" x="2" y="20" />
+            <object id="87" x="8" y="20" />
+            <object id="88" x="15" y="20" />
+            
+            
+            <object id="500" x="10" y="19" />
+            <object id="30" x="27" y="10" />
+            <object id="47" x="27" y="22" />
+        </square>
+        
+        <square
+            sy="4"
+            sx="2"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            
+            <object id="911" x="7" y="6" />
+            
+            <object id="104" x="9" y="3" />
+            
+            <object id="161" x="15" y="2"/>
+            <object id="160" x="15" y="2" />
+            <object id="2108" x="15" y="4"/>
+            
+            <object id="161" x="29" y="2"/>
+            <object id="160" x="29" y="2" />
+            <object id="2109" x="29" y="4"/>
+            
+            <object id="161" x="22" y="3"/>
+            <object id="160" x="22" y="3" />
+            <object id="2110" x="22" y="5"/>
+            
+            <object id="2023" x="14" y="4"/>
+            <object id="2023" x="16" y="4"/>
+            <object id="50067" x="15" y="2.5"/>
+            
+            <object id="2022" x="21" y="5"/>
+            <object id="2022" x="22.5" y="5"/>
+            <object id="50064" x="22" y="3.5"/>
+            
+            <object id="2024" x="27" y="4"/>
+            <object id="2023" x="29" y="4"/>
+            <object id="2024" x="31" y="4"/>
+            <object id="50065" x="29" y="2.5"/>
+            
+        </square>
+        
+        <square
+            sy="4"
+            sx="3"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            <!--
+             <object id="914" x="14" y="0" />
+             -->
+            <object id="5113" x="16.5" y="16.5" />
+            
+            <object id="161" x="4" y="3"/>
+            <object id="160" x="4" y="3" />
+            <object id="2014" x="4" y="5"/>
+            
+            <object id="2023" x="2.5" y="5"/>
+            <object id="2022" x="4" y="5"/>
+            <object id="2023" x="5.5" y="5"/>
+            <object id="50066" x="4" y="3.5"/>
+            
+            <object id="35" x="25" y="9"/>
+            <object id="35" x="25" y="0"/>
+            
+            <object id="924" x="26" y="19" />
+            <!--<object id="925" x="18" y="21" />-->
+            
+            <object id="33001" x="17" y="2" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        
+        <square
+            sy="5"
+            sx="0"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            <object id="29" x="0" y="2"/>
+            <object id="45" x="0" y="12"/>
+            <object id="46" x="0" y="22"/>
+            
+            <object id="204" x="21" y="23"/>
+            
+            <object id="106" x="9" y="23"/>
+            
+            <object id="107" x="15" y="16"/>
+            <object id="2024" x="15" y="18"/>
+            <object id="50013" x="15" y="18"/>
+            
+            <object id="108" x="21" y="9"/>
+            <object id="2021" x="21" y="11"/>
+            <object id="50011" x="21" y="11"/>
+            
+            <object id="203" x="27" y="16"/>
+            <object id="2021" x="27" y="18"/>
+            <object id="50014" x="27" y="18"/>
+            
+            <object id="207" x="27" y="3"/>
+            <object id="2023" x="27" y="5"/>
+            <object id="50010" x="27" y="5"/>
+            
+            <object id="33001" x="1" y="19" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="5"
+            sx="1"
+            bgPath="bgCave_02.jpg"
+            >
+            <object id="206" x="1" y="9"/>
+            <object id="50012" x="1" y="11"/>
+            <object id="2024" x="1" y="11"/>
+            
+            <object id="109" x="1" y="23"/>
+            
+            <object id="110" x="13" y="23"/>
+            
+            <object id="111" x="7" y="16"/>
+            <object id="2023" x="7" y="18"/>
+            <object id="50015" x="7" y="18"/>
+            
+            
+            <object id="32" x="27" y="10"/>
+            <object id="33" x="27" y="20"/>
+            
+            <object id="33001" x="19" y="13.5" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="5"
+            sx="2"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            <object id="5112" x="16" y="6" />
+            
+            <object id="82" x="9.5" y="2.5" />
+            <object id="83" x="16" y="2" />
+            
+            <object id="300" x="13" y="2" />
+            
+            <object id="161" x="29" y="3"/>
+            <object id="160" x="29" y="3" />
+            <object id="2116" x="29" y="5"/>
+            
+            <object id="161" x="22" y="2"/>
+            <object id="160" x="22" y="2" />
+            
+            <object id="2023" x="27.5" y="5"/>
+            <object id="2024" x="29" y="5"/>
+            <object id="2024" x="30.5" y="5"/>
+            <object id="50061" x="29" y="3.5"/>
+            
+            <object id="2024" x="21" y="4"/>
+            <object id="2024" x="22.5" y="4"/>
+            <object id="50062" x="22" y="2.5"/>
+            
+            <object id="33001" x="3" y="0" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="5"
+            sx="3"
+            bgPath="bgCave_02.jpg"
+            
+            >
+            <object id="5104" x="12" y="6.5" />
+            
+            <object id="82" x="9.5" y="2.5" />
+            <object id="83" x="15.5" y="2" />
+            
+            <object id="39" x="24" y="10"/>
+            <object id="38" x="24" y="20"/>
+            
+            
+            <object id="300" x="13" y="2" />
+            
+            <object id="161" x="4" y="2"/>
+            <object id="160" x="4" y="2" />
+            
+            <object id="2023" x="2" y="4"/>
+            <object id="2023" x="4" y="4"/>
+            <object id="2022" x="6" y="4"/>
+            <object id="50060" x="4" y="2.5"/>
+            
+        </square>
+        
+        
+        <square
+            sy="6"
+            sx="0"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            
+            <object id="906" x="16" y="15" />
+            
+            <object id="29" x="0" y="2"/>
+            <object id="45" x="0" y="12"/>
+            <object id="46" x="0" y="22"/>
+            
+            <object id="2021" x="9" y="1"/>
+            <object id="50016" x="9" y="1"/>
+            
+            <object id="2023" x="21" y="1"/>
+            <object id="50017" x="21" y="1"/>
+            
+            <object id="200" x="15" y="6"/>
+            <object id="2024" x="15" y="8"/>
+            <object id="50020" x="15" y="8"/>
+            
+            <object id="201" x="27" y="6"/>
+            <object id="2023" x="27 " y="8"/>
+            <object id="50021" x="27 " y="8"/>
+            
+            <object id="202" x="9" y="13"/>
+            <object id="2021" x="9" y="15"/>
+            <object id="50023" x="9" y="15"/>
+            <object id="916" x="9" y="15"/>
+            
+            <object id="122" x="21" y="13"/>
+            <object id="2024" x="21" y="15"/>
+            <object id="50024" x="21" y="15"/>
+            
+            <!--
+             <object id="2200" x="4" y="21"/>
+             -->
+            <object id="197" x="5" y="21.5" />
+            <object id="198" x="5" y="19" />
+            
+        </square>
+        
+        <square
+            sy="6"
+            sx="1"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            
+            <object id="124" x="1" y="13"/>
+            <object id="2021" x="1" y="15"/>
+            <object id="50025" x="1" y="15"/>
+            
+            <object id="125" x="14" y="13"/>
+            <object id="2023" x="14" y="15"/>
+            <object id="50026" x="14" y="15"/>
+            
+            <object id="205" x="8" y="6"/>
+            <object id="2024" x="8" y="8"/>
+            <object id="50022" x="8" y="8"/>
+            
+            <object id="2024" x="1" y="1"/>
+            <object id="50018" x="1" y="1"/>
+            
+            
+            <object id="2023" x="13" y="1"/>
+            <object id="50019" x="13" y="1"/>
+            
+            
+            <object id="36" x="27" y="5"/>
+            <object id="36" x="27" y="12"/>
+            <object id="263" x="27" y="19"/>
+            <object id="37" x="27" y="29"/>
+            
+            <object id="33002" x="19" y="19.5" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="6"
+            sx="2"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            <!--
+             <object id="910" x="19" y="22" />
+             -->
+            <object id="911" x="5.5" y="6" />
+            
+            <object id="502" x="0" y="3" />
+            
+            <object id="104" x="13" y="21" />
+            
+            <object id="161" x="19" y="21"/>
+            <object id="160" x="19" y="21"/>
+            <object id="2024" x="18" y="23"/>
+            <object id="2024" x="19.5" y="23"/>
+            <object id="50062" x="19" y="21.5"/>
+            
+            <object id="161" x="26" y="22"/>
+            <object id="160" x="26" y="22"/>
+            <object id="2023" x="24.5" y="24"/>
+            <object id="2024" x="26" y="24"/>
+            <object id="2024" x="27.5" y="24"/>
+            <object id="50061" x="26" y="22.5"/>
+            
+            
+            <object id="161" x="20" y="3"/>
+            <object id="160" x="20" y="3" />
+            <object id="2022" x="19.5" y="5"/>
+            <object id="2022" x="21" y="5"/>
+            <object id="50064" x="20" y="3.5"/>
+            
+            <object id="161" x="13" y="2"/>
+            <object id="160" x="13" y="2" />
+            <object id="2023" x="12" y="4"/>
+            <object id="2023" x="13.5" y="4"/>
+            <object id="50063" x="13" y="2.5"/>
+            
+            <object id="161" x="27" y="2"/>
+            <object id="160" x="27" y="2" />
+            <object id="2024" x="25.5" y="4"/>
+            <object id="2023" x="27" y="4"/>
+            <object id="2024" x="28.5" y="4"/>
+            <object id="50065" x="27" y="2.5"/>
+            
+            <object id="2023" x="31.5" y="23"/>
+            
+            
+        </square>
+        
+        <square
+            sy="6"
+            sx="3"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            
+            <object id="5111" x="8" y="23" />
+            <object id="5106" x="17.5" y="2" />
+            
+            <object id="186" x="6" y="22" />
+            <object id="185" x="12.5" y="21.5" />
+            <object id="187" x="17.5" y="21.5" />
+            
+            <object id="915" x="12" y="23" />
+            
+            <object id="502" x="14" y="21" />
+            
+            <object id="42" x="28" y="7"/>
+            <object id="41" x="28" y="19"/>
+            
+            
+            <object id="161" x="2" y="3"/>
+            <object id="160" x="2" y="3" />
+            <object id="2023" x="0.5" y="5"/>
+            <object id="2022" x="2" y="5"/>
+            <object id="2023" x="3.5" y="5"/>
+            <object id="50066" x="2" y="3.5"/>
+            
+            <object id="161" x="1" y="21"/>
+            <object id="160" x="1" y="21"/>
+            <object id="2023" x="1" y="23"/>
+            <object id="2022" x="2.5" y="23"/>
+            <object id="50060" x="1" y="21.5"/>
+            
+        </square>
+        
+        
+        <square
+            sy="7"
+            sx="0"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            <object id="5103" x="27" y="8" />
+            <object id="5111" x="13" y="7.5" />
+            
+            <object id="82" x="9.5" y="6.5" />
+            <object id="83" x="15.5" y="6" />
+            <object id="92" x="20" y="6.5" />
+            <object id="93" x="26" y="6.5" />
+            <object id="94" x="29.5" y="7.5" />
+            
+            <object id="942" x="22" y="10"/>
+            <object id="29" x="0" y="2"/>
+            <object id="45" x="0" y="12"/>
+            <object id="46" x="0" y="22"/>
+            
+            <object id="300" x="13" y="6" />
+            
+            <object id="141" x="23" y="19"/>
+            <object id="2021" x="23" y="21"/>
+            <object id="50028" x="23" y="21"/>
+            
+            <object id="220" x="30" y="13"/>
+            <object id="2021" x="30" y="15"/>
+            <object id="50027" x="30" y="15"/>
+            
+            <object id="80" x="25.5" y="3" />
+            
+            <object id="33003" x="1" y="0" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="7"
+            sx="1"
+            bgPath="bgCave_02.jpg"
+            
+            >
+            <object id="5106" x="12" y="8" />
+            
+            <object id="95" x="0" y="7.5" />
+            <object id="96" x="4" y="7" />
+            <object id="97" x="9.5" y="6.5" />
+            <object id="94" x="13" y="7" />
+            <object id="98" x="15" y="6.5" />
+            <object id="99" x="17" y="6.5" />
+            
+            <object id="142" x="5" y="19"/>
+            <object id="2023" x="5" y="21"/>
+            <object id="50029" x="5" y="21"/>
+            
+            <object id="5" x="10" y="3"/>
+            <object id="36" x="27" y="17"/>
+            
+        </square>
+        
+        <square
+            sy="7"
+            sx="2"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            
+            <object id="502" x="13" y="18"/>
+            <object id="502" x="25" y="18"/>
+            
+            <object id="48" x="28" y="21"/>
+            
+            <object id="33001" x="3" y="0" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="7"
+            sx="3"
+            bgPath="bgCave_02.jpg"
+            
+            >
+            
+            <object id="47" x="28" y="5" />
+            <object id="48" x="5" y="20" />
+            
+            <object id="30" x="27" y="17"/>
+            
+            <!-- <object id="502" x="2" y="18"/> removed by Sanya -->
+            <object id="944" x="17" y="18"/>
+            
+            <object id="944" x="12" y="0"/>
+            
+            <object id="33001" x="19" y="16" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="8"
+            sx="0"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            
+            <object id="907" x="16" y="22" />
+            
+            <object id="29" x="0" y="2"/>
+            <object id="45" x="0" y="12"/>
+            <object id="46" x="0" y="22"/>
+            
+            <object id="139" x="30" y="2"/>
+            <object id="2024" x="30" y="4"/>
+            <object id="50031" x="30" y="4"/>
+            
+            <object id="140" x="18" y="2"/>
+            <object id="2023" x="18" y="4"/>
+            <object id="50030" x="18" y="4"/>
+            
+            <object id="139" x="24" y="8"/>
+            <object id="2022" x="24" y="10"/>
+            <object id="50034" x="24" y="10"/>
+            
+            <object id="140" x="18" y="15"/>
+            <object id="2022" x="18" y="17"/>
+            <object id="50037" x="18" y="17"/>
+            
+            <object id="139" x="30" y="15"/>
+            <object id="2023" x="30" y="17"/>
+            <object id="50038" x="30" y="17"/>
+            
+            <object id="220" x="12" y="8"/>
+            <object id="2024" x="12" y="10"/>
+            <object id="50033" x="12" y="10"/>
+            
+            <object id="220" x="5" y="15"/>
+            <object id="2021" x="5" y="17"/>
+            <object id="50036" x="5" y="17"/>
+            
+            <object id="220" x="24" y="21"/>
+            <object id="2021" x="24" y="23"/>
+            <object id="50041" x="24" y="23"/>
+            
+            <object id="140" x="12" y="21"/>
+            <object id="2023" x="12" y="23"/>
+            <object id="50040" x="12" y="23"/>
+            
+            <object id="916" x="12" y="23"/>
+            
+            <object id="33001" x="1" y="5" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="8"
+            sx="1"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            
+            <object id="141" x="10" y="15"/>
+            <object id="2021" x="10" y="17"/>
+            <object id="50039" x="10" y="17"/>
+            
+            <object id="140" x="4" y="8"/>
+            <object id="2023" x="4" y="10"/>
+            <object id="50035" x="4" y="10"/>
+            
+            <object id="140" x="10" y="2"/>
+            <object id="2022" x="10" y="4"/>
+            <object id="50032" x="10" y="4"/>
+            
+            <object id="220" x="4" y="21"/>
+            <object id="2024" x="4" y="23"/>
+            <object id="50042" x="4" y="23"/>
+            
+            <object id="36" x="27" y="5"/>
+            <object id="36" x="27" y="12"/>
+            <object id="36" x="27" y="22"/>
+            
+            <object id="33001" x="19" y="8" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="8"
+            sx="2"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            
+            <object id="175" x="28.5" y="19" />
+            <object id="176" x="24" y="19.5" />
+            <object id="177" x="18" y="19.5" />
+            
+            <object id="178" x="9.5" y="4" />
+            <object id="179" x="5" y="3" />
+            <object id="180" x="15.5" y="3.5" />
+            <object id="181" x="21.5" y="3.5" />
+            <object id="183" x="26.5" y="2.5" />
+            <object id="182" x="31" y="3" />
+            
+            <object id="73" x="12" y="11" />
+            <object id="74" x="23" y="11" />
+            
+            <object id="920" x="21" y="23" />
+            <object id="900" x="21" y="23" />
+            <object id="260" x="24" y="16"/>
+            
+            <object id="262" x="8" y="0"/>
+            
+            <object id="5114" x="29.5" y="23.5" />
+            <object id="5115" x="29.5" y="23.5" />
+            
+            <object id="33001" x="3" y="15" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="8"
+            sx="3"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            
+            <object id="184" x="6" y="2.5" />
+            
+            <object id="170" x="25" y="20" />
+            <object id="171" x="17" y="20" />
+            <object id="172" x="13.5" y="19" />
+            <object id="173" x="9" y="19.5" />
+            <object id="174" x="0" y="20" />
+            
+            <object id="261" x="1" y="17" />
+            
+            <object id="921" x="27" y="10" />
+            
+            <object id="260" x="9" y="16"/>
+            
+            <object id="260" x="24.5" y="16"/>
+            
+            <object id="4200" x="27" y="3"/>
+            
+            <object id="923" x="6" y="6" />
+            <object id="901" x="6" y="6" />
+            
+            <object id="75" x="5" y="11" />
+            
+            
+        </square>
+        
+        <square
+            sy="9"
+            sx="0"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            <object id="82" x="9" y="15.5" />
+            
+            <object id="943" x="8" y="16"/>
+            
+            <object id="300" x="13" y="15" />
+            
+            
+            <object id="949" x="5" y="3" />
+            
+            <object id="199" x="5" y="0"/>
+            
+            <object id="29" x="0" y="2"/>
+            <object id="45" x="0" y="12"/>
+            <object id="46" x="0" y="22"/>
+            
+            <object id="161" x="13" y="21"/>
+            <object id="160" x="13" y="21"/>
+            <object id="2024" x="13" y="23"/>
+            <object id="50043" x="13" y="21.5"/>
+            
+            <object id="161" x="22" y="21"/>
+            <object id="160" x="22" y="21"/>
+            <object id="2023" x="22" y="23"/>
+            <object id="50044" x="22" y="21.5"/>
+            
+            <object id="161" x="31" y="21"/>
+            <object id="160" x="31" y="21"/>
+            <object id="2022" x="31" y="23"/>
+            <object id="50045" x="31" y="21.5"/>
+            
+            
+            <object id="4" x="27" y="12" />
+            <object id="4" x="20" y="12" />
+            
+            <object id="159" x="17" y="18"/>
+            <object id="159" x="29" y="18"/>
+        </square>
+        
+        <square
+            sy="9"
+            sx="1"
+            bgPath="bgCave_02.jpg"
+            
+            >
+            
+            <object id="36" x="27" y="11"/>
+            <object id="5" x="10" y="12"/>
+            
+            
+            <object id="161" x="8" y="21"/>
+            <object id="160" x="8" y="21"/>
+            <object id="2021" x="8" y="23"/>
+            <object id="50046" x="8" y="21.5"/>
+            
+            <object id="161" x="17" y="21"/>
+            <object id="160" x="17" y="21"/>
+            <object id="2024" x="17" y="23"/>
+            <object id="50047" x="17" y="21.5"/>
+            
+            <object id="161" x="26" y="21"/>
+            <object id="160" x="26" y="21"/>
+            <object id="2021" x="26" y="23"/>
+            <object id="50048" x="26" y="21.5"/>
+            
+            <object id="159" x="9" y="18"/>
+            <object id="159" x="21" y="18"/>
+        </square>
+        
+        <square
+            sy="9"
+            sx="2"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            <object id="912" x="30" y="3" />
+            
+            <object id="4" x="28" y="12" />
+            <object id="4" x="13" y="12" />
+            
+            <object id="161" x="3" y="21"/>
+            <object id="160" x="3" y="21"/>
+            <object id="2022" x="3" y="23"/>
+            <object id="50049" x="3" y="21.5"/>
+            
+            <object id="161" x="12" y="21"/>
+            <object id="160" x="12" y="21"/>
+            <object id="2023" x="12" y="23"/>
+            <object id="50050" x="12" y="21.5"/>
+            
+            <object id="161" x="21" y="21"/>
+            <object id="160" x="21" y="21"/>
+            <object id="2024" x="21" y="23"/>
+            <object id="50051" x="21" y="21.5"/>
+            
+            <object id="161" x="30" y="21"/>
+            <object id="160" x="30" y="21"/>
+            <object id="2023" x="30" y="23"/>
+            <object id="50052" x="30" y="21.5"/>
+            
+            <object id="159" x="1" y="18"/>
+            <object id="159" x="13" y="18"/>
+            <object id="159" x="25" y="18"/>
+            
+            <object id="72" x="13" y="4" />
+            <object id="71" x="26" y="4" />
+            
+        </square>
+        
+        <square
+            sy="9"
+            sx="3"
+            bgPath="bgCave_02.jpg"
+            
+            >
+            
+            
+            <object id="910" x="19" y="15" />
+            <object id="910" x="23" y="15" />
+            <object id="910" x="28" y="15" />
+            
+            <object id="4" x="8" y="12"/>
+            
+            <object id="161" x="7" y="21"/>
+            <object id="160" x="7" y="21"/>
+            <object id="2024" x="7" y="23"/>
+            <object id="50053" x="7" y="21.5"/>
+            
+            <object id="161" x="16" y="21" />
+            <object id="160" x="16" y="21" />
+            <object id="2021" x="16" y="23" />
+            <object id="50054" x="16" y="21.5" />
+            
+            <object id="159" x="5" y="18"/>
+            <object id="159" x="11" y="18"/>
+            
+            <object id="4600" x="31" y="2"/>
+            <object id="4600" x="31" y="11"/>
+            <object id="4600" x="31" y="20"/>
+            
+            <object id="70" x="9" y="4" />
+            
+            <object id="33001" x="30" y="20" /> <!-- fucking wall by Sanya -->
+            
+        </square>
+        
+        <square
+            sy="10"
+            sx="0"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            
+            <object id="46" x="0" y="1"/>
+            <object id="46" x="0" y="11"/>
+            <object id="46" x="0" y="20"/>
+            
+            <object id="33001" x="1" y="5" /> <!-- fucking wall by Sanya -->
+        </square>
+        
+        <square
+            sy="10"
+            sx="1"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            
+        </square>
+        
+        <square
+            sy="10"
+            sx="2"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="10"
+            sx="3"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            
+            <object id="4600" x="31" y="1"/>
+            <object id="4600" x="31" y="11"/>
+            <object id="4600" x="31" y="20"/>
+        </square>
+    </landscape>
+    
+</world>

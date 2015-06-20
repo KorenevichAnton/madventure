@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<world>
+    <camera>
+        <bounding minX_s="0" minY_s="0" maxX_s="7" maxY_s="1"/>
+        <preloading hor_s="2" ver_s="2"/>
+        <calculating hor_s="1" ver_s="1"/>
+    </camera>
+    
+    <parallax>
+        <tile1
+        backgroundTile="textures/scenes/world/parallax/sky/background.jpg"
+        midgroundTile="textures/scenes/world/parallax/sky/averageground.png" />
+        <rect1
+        x_c="0" y_c="0" width_c="256" height_c="72" />
+    </parallax>
+    
+    <landscape
+        swidth="8"
+        sheight="3"
+        dimensionX="32"
+        dimensionY="24"
+        >
+        
+        <!--bg_03.png-->
+        <square
+            sy="0"
+            sx="0"
+            >
+            
+            <object id="33000" x="0" y="12" />
+            <object id="777" x="4" y="11"/>
+            
+            <object id="200" x="10" y="12" />
+            <object id="210" x="14" y="12" /> <!--geodata changes -->
+            <object id="5015" x="16.5" y="13.5" /> <!--geodata changes -->
+            
+            <object id="5000" x="9" y="16" />
+            <object id="950" x="16" y="0"/>
+            
+            <object id="1003" x="30" y="13" />
+            
+            
+            <object id="13" x="28" y="10" /> <!--geodata changes applies to id="0"-->
+        </square>
+        
+        <square
+            sy="0"
+            sx="1"
+            >
+            
+            <object id="14" x="9" y="10" /> <!--geodata changes -->
+            <object id="15" x="30" y="14" /> <!--geodata changes -->
+            <object id="5016" x="5" y="13.5" /> <!-- geodata changes -->
+            <object id="0" x="5" y="9" />
+            
+            
+            <object id="101" x="19" y="9.5" />
+            
+            <object id="5001" x="2" y="17" />
+            <object id="5008" x="18" y="18" />
+            <object id="5011" x="18" y="14" />
+            
+            <object id="950" x="16" y="0"/>
+            
+            <object id="805" x="27" y="18" />
+            <object id="806" x="28" y="20" />
+            <object id="807" x="29" y="18" />
+            
+        </square>
+        
+        <square
+            sy="0"
+            sx="2"
+            >
+            
+            <object id="809" x="29" y="17" />
+            <object id="810" x="31" y="20" />
+            
+            <object id="211" x="21" y="12" /> <!--geodata changes-->
+            <object id="201" x="18" y="12" />
+            
+            <object id="5002" x="14" y="16" />
+            <object id="950" x="16" y="0"/>
+            
+            <object id="1001" x="11" y="15" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="3"
+            >
+            <object id="811" x="2" y="20" />
+            <object id="812" x="4" y="17" />
+            
+            <object id="16" x="7" y="12" />
+            <object id="17" x="24" y="12" />
+            <object id="1" x="16" y="12" />
+            
+            
+            <object id="5001" x="10" y="18.5" />
+            <object id="5014" x="21" y="15.5" />
+            <object id="950" x="16" y="0"/>
+            
+            <object id="5017" x="20" y="15" />
+            
+            <object id="970" x="24" y="21" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="4"
+            >
+            <object id="500" x="5" y="10" />
+            <object id="950" x="16" y="0" />
+            
+            
+            <object id="816" x="29" y="20" />
+            <object id="817" x="26.5" y="18.5" />
+            <object id="818" x="25" y="16" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="5"
+            >
+            
+            <object id="819" x="0" y="20" />
+            <object id="820" x="2.5" y="18.5" />
+            <object id="821" x="4" y="16" />
+            
+            <object id="501" x="22" y="4" />
+            <object id="950" x="16" y="0"/>
+        </square>
+        
+        <square
+            sy="0"
+            sx="6"
+            >
+            
+            <object id="202" x="6" y="5" />
+            <object id="210" x="10" y="5" /> <!--geodata changes -->
+            <object id="5015" x="12.5" y="6.5" /> <!--geodata changes -->
+            <object id="5000" x="5" y="9" />
+            <object id="5001" x="30" y="18.5" />
+            <object id="5015" x="31" y="11" />
+            
+            <object id="950" x="16" y="0"/>
+            <object id="2002" x="31" y="11" />
+            
+            <object id="1002" x="23" y="14" />
+            
+            <object id="18" x="23" y="10" />
+            
+            <object id="822" x="8" y="23" />
+            <object id="823" x="10" y="23" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="7"
+            >
+            
+            <object id="2" x="0" y="10" />
+            <object id="19" x="6" y="10" />
+            
+            <object id="2003" x="0" y="12.5" />
+            
+            <object id="102" x="17" y="11" />
+            
+            <object id="5006" x="0" y="16" />
+            <object id="5011" x="1" y="15" />
+            
+            <object id="5008" x="12" y="19" />
+            <object id="5014" x="25" y="13" />
+            
+            <object id="900" x="27" y="13" />
+            <object id="950" x="16" y="0"/>
+            
+            <object id="1600" x="25" y="24.5" />
+            
+            <object id="5016" x="3" y="15" />
+            
+            
+            <!-- Tree of coin -->
+            <object id="829" x="11" y="18" />
+            <object id="830" x="10" y="20" />
+            <object id="831" x="11" y="18" />
+            
+            <object id="834" x="12" y="20" />
+            <object id="835" x="14" y="20" />
+            
+            <object id="836" x="12" y="20" />
+            <object id="837" x="13" y="18" />
+            
+        </square>
+        
+        
+        
+        <square
+            sy="1"
+            sx="0"
+            >
+            
+            <object id="800" x="31" y="0" />
+            <object id="801" x="29" y="0" />
+            <object id="802" x="29" y="2" />
+            <object id="803" x="31" y="2" />
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="1"
+            >
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="2"
+            >
+            
+            
+        </square>
+        
+        
+        <square
+            sy="1"
+            sx="3"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="4"
+            >
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="5"
+            >
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="6"
+            >
+            <object id="827" x="22" y="3" />
+            <object id="828" x="24" y="3" />
+            
+            
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="7"
+            >
+            
+        </square>
+        
+        
+        <square
+            sy="2"
+            sx="0"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="1"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="2"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="3"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="4"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="5"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="6"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="7"
+            >
+            
+            
+        </square>
+        
+    </landscape>
+    
+</world>

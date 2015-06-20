@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<world>
+    <camera>
+        <bounding minX_s="0" minY_s="0" maxX_s="12" maxY_s="1"/>
+        <preloading hor_s="2" ver_s="2"/>
+        <calculating hor_s="1" ver_s="1"/>
+    </camera>
+    
+    <parallax>
+        <tile1
+        backgroundTile="textures/scenes/world/parallax/sky/background.jpg"
+        midgroundTile="textures/scenes/world/parallax/sky/averageground.png" />
+        <rect1
+        x_c="0" y_c="0" width_c="416" height_c="72" />
+    </parallax>
+    
+    <landscape
+        swidth="13"
+        sheight="3"
+        dimensionX="32"
+        dimensionY="24"
+        >
+        <!--bg_03.png-->
+        <square
+            sy="0"
+            sx="0"
+            >
+            <object id="777" x="5" y="11"/>
+            
+            <object id="33000" x="0" y="12" />
+            <object id="950" x="16" y="0" />
+            
+        </square>
+        
+        <square
+            sy="0"
+            sx="1"
+            >
+            
+            <object id="320" x="5" y="5" />
+            
+            <object id="2001" x="20" y="6" />
+            
+            <object id="951" x="16" y="0" />
+            
+            <object id="900" x="5" y="10.25" />
+            <object id="923" x="5" y="10.25" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="2"
+            >
+            
+            <object id="2000" x="3" y="8" />
+            
+            <object id="952" x="16" y="0" />
+            
+            <object id="402" x="25" y="15" /> <!-- geodata changes -->
+            <object id="403" x="25" y="15" /> <!-- geodata changes -->
+            
+            <object id="6008" x="22" y="22"/>
+            <object id="6004" x="28" y="16.5"/>
+            
+            <object id="1002" x="31" y="18" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="3"
+            >
+            
+            
+            <object id="953" x="16" y="0" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="4"
+            >
+            
+            <object id="954" x="16" y="0" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="5"
+            >
+            
+            <object id="955" x="16" y="0" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="6"
+            >
+            
+            <object id="12" x="25" y="13" />
+            <object id="405" x="25" y="13" /> <!-- geodata changes -->
+            
+            <object id="6001" x="23" y="20" />
+            <object id="6012" x="31.5" y="14" />
+            
+            
+            <object id="956" x="16" y="0" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="7"
+            >
+            
+            <object id="109" x="14.5" y="12.5" />
+            
+            <object id="5000" x="18" y="13" />
+            
+            <object id="6015" x="16" y="13.5" />
+            <object id="6008" x="24" y="22" />
+            <object id="6004" x="9" y="15" />
+            
+            <object id="957" x="16" y="0" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="8"
+            >
+            
+            <object id="2002" x="6" y="8" />
+            
+            <object id="2004" x="15" y="17" />
+            <object id="958" x="16" y="0" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="9"
+            >
+            <object id="959" x="16" y="0" />
+            
+            <object id="6705" x="27" y="4" />
+            <object id="6718" x="30" y="9.5" />
+            
+            <object id="304" x="8" y="15"/>
+            
+            <object id="807" x="19" y="19"/>
+            <object id="808" x="19" y="16"/>
+            
+        </square>
+        
+        <square
+            sy="0"
+            sx="10"
+            >
+            <object id="6200" x="26" y="8" />
+            <object id="6202" x="12" y="12" />
+            
+            <object id="6781" x="2.5" y="9" />
+            
+            <object id="6704" x="23" y="18.7" />
+            
+            <object id="11" x="10" y="8" /> <!-- waterfall 3 -->
+            <object id="108" x="31" y="8" />
+            <object id="960" x="16" y="0" />
+            
+            <object id="5012" x="31" y="8.5" /> <!-- waterfall 4 -->
+            
+            <object id="6008" x="7" y="14.5" />
+            <object id="6003" x="6" y="10.5" />
+            
+            
+            <object id="6723" x="1" y="9.5" />
+            <object id="6723" x="3" y="9.5" />
+            <object id="6724" x="9" y="9.5" />
+            <object id="6725" x="15" y="9.5" />
+            <object id="6726" x="21" y="9.5" />
+            <object id="6727" x="27" y="9.5" />
+            
+            <object id="6774" x="6" y="9" />
+            <object id="6775" x="9" y="9" />
+            <object id="6776" x="15" y="9" />
+            <object id="6777" x="21" y="9" />
+            <object id="6778" x="27" y="9" />
+            
+            <object id="5014" x="14" y="8.5" /> <!-- waterfall 3 -->
+            
+            <object id="845" x="3" y="12" />
+            <object id="844" x="11" y="12" />
+            <object id="843" x="19" y="12" />
+            <object id="842" x="27" y="12" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="11"
+            >
+            <object id="6201" x="25" y="25" />
+            
+            <object id="6728" x="1" y="9.5" />
+            <object id="6729" x="7" y="9.5" />
+            <object id="6730" x="13" y="9.5" />
+            <object id="6731" x="19" y="9.5" />
+            <object id="6732" x="25" y="9.5" />
+            <object id="6733" x="31" y="9.5" />
+            
+            <object id="6779" x="1" y="9" />
+            <object id="6780" x="7" y="9" />
+            <object id="6783" x="13" y="9" />
+            <object id="6784" x="19" y="9" />
+            <object id="6785" x="25" y="9" />
+            <object id="6786" x="31" y="9" />
+            
+            <object id="6014" x="8" y="13" />
+            
+            <object id="601" x="14" y="24"/> <!-- waterfall 2 -->
+            
+            <object id="602" x="29" y="8" /> <!-- waterfall 4 -->
+            <object id="961" x="16" y="0" />
+            
+            <object id="846" x="3" y="12" />
+            <object id="847" x="11" y="12" />
+            <object id="848" x="19" y="12" />
+            <object id="849" x="27" y="12" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="12"
+            >
+            <object id="6202" x="7" y="12" />
+            
+            <object id="6787" x="5" y="9" />
+            <object id="6788" x="9" y="9" />
+            <object id="6734" x="5" y="9.5" />
+            <object id="6735" x="11" y="9.5" />
+            <object id="6735" x="14" y="9.5" />
+            
+            <object id="6002" x="4" y="13" />
+            <object id="6011" x="3" y="12" />
+            
+            <object id="6715" x="13" y="9" />
+            <object id="6716" x="17" y="9.5" />
+            
+            
+            <object id="6106" x="28" y="6" />
+            
+            <object id="901" x="30" y="12"/>
+            <object id="2100" x="30" y="2" />
+            <object id="962" x="16" y="0" />
+            
+            <object id="201" x="7" y="24"/>
+            
+            <object id="6702" x="20.6" y="4" />
+            
+            <object id="850" x="4" y="12" />
+            <object id="851" x="12" y="12" />
+        </square>
+        
+        <square
+            sy="1"
+            sx="0"
+            >
+            
+            <object id="33000" x="0" y="12" />
+            <object id="200" x="9.5" y="5"/>
+            <object id="6005" x="8" y="6.5"/>
+            
+            <object id="822" x="18" y="11.5"/>
+            <object id="823" x="20" y="14.5"/>
+            
+            <object id="825" x="23.5" y="16"/>
+            <object id="826" x="27" y="14.5"/>
+            <object id="827" x="29" y="11.5"/>
+        </square>
+        
+        <square
+            sy="1"
+            sx="1"
+            >
+            <object id="0" x="8" y="5"/>
+            <object id="400" x="8" y="5"/> <!-- geodata changes -->
+            
+            <object id="202" x="26" y="13"/>
+            <object id="401" x="26" y="13"/> <!-- geodata changes -->
+            
+            <object id="6002" x="20" y="17"/>
+            <object id="6011" x="20" y="15"/>
+            <object id="6014" x="8" y="7"/>
+            <object id="6001" x="12" y="12.5"/>
+            
+            <object id="1001" x="0" y="8.5" />
+            
+            <object id="821" x="21.5" y="6"/>
+            <object id="824" x="21.5" y="3.5"/>
+            <object id="800" x="21.5" y="1"/>
+            
+            <object id="801" x="27.5" y="16"/>
+            <object id="802" x="31.5" y="16"/>
+            <object id="803" x="31.5" y="19"/>
+            <object id="804" x="27.5" y="19"/>
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="2"
+            >
+            
+            <object id="350" x="8" y="0"/>
+            <!--
+             <object id="3000" x="15" y="6"/>
+             -->
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="3"
+            >
+            <object id="300" x="5" y="2"/>
+            <object id="301" x="15" y="0"/>
+            <object id="302" x="16" y="13"/>
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="4"
+            >
+            
+            <object id="500" x="4" y="12"/>
+            <object id="501" x="11.5" y="6"/>
+            <object id="502" x="19" y="0"/>
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="5"
+            >
+            
+            <object id="600" x="16" y="0"/>
+            <object id="404" x="16" y="0"/> <!-- geodata changes -->
+            
+            <object id="6012" x="6" y="3"/>
+            
+            <object id="6008" x="16" y="8"/>
+            
+            <object id="6006" x="26.75" y="2"/>
+            <object id="6011" x="26.75" y="1"/>
+            
+            <object id="1003" x="1" y="2.5" />
+            
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="6"
+            >
+            
+            <object id="805" x="16" y="8"/>
+            <object id="806" x="18" y="8"/>
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="7"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="8"
+            >
+            <object id="2003" x="24" y="2"/>
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="9"
+            >
+            
+            
+            <object id="6717" x="29.5" y="14" />
+            <object id="6718" x="30" y="14.5" />
+            
+            
+            <object id="303" x="19" y="8"/>
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="10"
+            >
+            <object id="6203" x="6" y="16" />
+            
+            <object id="6781" x="30.3" y="0.9" />
+            <object id="6718" x="26.5" y="1.45" />
+            
+            <object id="6719" x="1" y="14" />
+            <object id="6756" x="7" y="14" />
+            <object id="6757" x="13" y="14" />
+            <object id="6758" x="19" y="14" />
+            <object id="6759" x="25" y="14" />
+            <object id="6760" x="31" y="14" />
+            
+            <object id="101" x="11" y="13"/>
+            <object id="5010" x="31" y="13.5"/> <!-- waterfall 1 -->
+            
+            
+            <object id="6701" x="7" y="22.5" />
+            
+            <object id="6736" x="1" y="14.5" />
+            <object id="6737" x="7" y="14.5" />
+            <object id="6738" x="13" y="14.5" />
+            <object id="6739" x="19" y="14.5" />
+            <object id="6740" x="25" y="14.5" />
+            <object id="6741" x="31" y="14.5" />
+            
+            
+            <object id="6753" x="31" y="1.4" />
+            <object id="6753" x="30" y="1.4" />
+            
+            <object id="6000" x="24" y="18" />
+            <object id="6013" x="24" y="17" />
+            
+            <object id="828" x="3" y="17" />
+            <object id="829" x="11" y="17" />
+            <object id="830" x="19" y="17" />
+            <object id="831" x="27" y="17" />
+        </square>
+        
+        <square
+            sy="1"
+            sx="11"
+            >
+            <object id="6203" x="21" y="17" />
+            
+            <object id="6742" x="5" y="14.5" />
+            <object id="6743" x="11" y="14.5" />
+            <object id="6744" x="17" y="14.5" />
+            <object id="6745" x="23" y="14.5" />
+            <object id="6746" x="28" y="14.5" />
+            
+            <object id="6754" x="29" y="1.4" />
+            <object id="6749" x="23" y="1.4" />
+            <object id="6750" x="17" y="1.4" />
+            <object id="6751" x="11" y="1.4" />
+            <object id="6752" x="5" y="1.4" />
+            
+            <object id="6767" x="28" y="0.9" />
+            <object id="6768" x="22" y="0.9" />
+            <object id="6769" x="16" y="0.9" />
+            <object id="6770" x="10" y="0.9" />
+            <object id="6771" x="4" y="0.9" />
+            <object id="6772" x="2" y="0.9" />
+            
+            <object id="6761" x="5" y="14" />
+            <object id="6762" x="11" y="14" />
+            <object id="6763" x="17" y="14" />
+            <object id="6764" x="23" y="14" />
+            <object id="6715" x="27" y="14" />
+            
+            <object id="6716" x="31" y="14.5" />
+            
+            <object id="5011" x="26" y="0.5" /> <!-- waterfall 2 -->
+            
+            <object id="201" x="0" y="13"/>
+            <object id="1" x="19" y="13"/> <!-- waterfall 1 -->
+            
+            <!--
+             <object id="6710" x="12" y="1.4" />
+             <object id="6711" x="12" y="0.9" />
+             
+             <object id="6710" x="30" y="1.4" />
+             <object id="6711" x="30" y="0.9" />
+             -->
+            
+            <object id="6001" x="10" y="7" />
+            
+            <object id="841" x="3" y="4" />
+            <object id="840" x="11" y="4" />
+            <object id="839" x="19" y="4" />
+            <object id="838" x="27" y="4" />
+            
+            <object id="832" x="4" y="17" />
+            <object id="833" x="12" y="17" />
+            <object id="834" x="20" y="17" />
+            <object id="835" x="28" y="17" />
+        </square>
+        
+        <square
+            sy="1"
+            sx="12"
+            >
+            
+            <object id="6747" x="15" y="1.4" />
+            <object id="6747" x="9" y="1.4" />
+            <object id="6748" x="3" y="1.4" />
+            <object id="6755" x="0" y="1.4" />
+            
+            <object id="6773" x="14" y="0.9" />
+            <object id="6765" x="8" y="0.9" />
+            <object id="6766" x="2" y="0.9" />
+            
+            <object id="6715" x="14" y="0.9" />
+            
+            <object id="6700" x="2.6" y="9" />
+            
+            <object id="6023" x="3" y="0" />
+            
+            <object id="20" x="23" y="4"/>
+            <object id="21" x="23" y="18"/>
+            
+            <object id="5013" x="8" y="0.5" />
+            
+            <object id="836" x="4" y="4" />
+            <object id="837" x="12" y="4" />
+        </square>
+        
+        <square
+            sy="2"
+            sx="0"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="1"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="2"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="3"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="4"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="5"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="6"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="7"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="8"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="9"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="10"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="11"
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="12"
+            >
+            
+            
+        </square>
+        
+    </landscape>
+    
+</world>

@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<world>
+    <camera>
+        <bounding minX_s="0" minY_s="0" maxX_s="11" maxY_s="2"/>
+        <preloading hor_s="2" ver_s="2"/>
+        <calculating hor_s="1" ver_s="1"/>
+    </camera>
+    
+    <parallax>
+        <tile1
+        backgroundTile="textures/scenes/world/parallax/cave/background.jpg"
+        midgroundTile="textures/scenes/world/parallax/cave/averageground.png" />
+        <rect1
+        x_c="0" y_c="0" width_c="192" height_c="72" />
+    </parallax>
+    
+    <landscape
+        swidth="12"
+        sheight="3"
+        dimensionX="32"
+        dimensionY="24"
+        >
+        <!--bg_03.png-->
+        <square
+            sy="0"
+            sx="0"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            
+            <object id="33000" x="0" y="12" />
+            <object id="777" x="5" y="0" />
+            
+            <object id="520" x="0" y="5"/>
+            <object id="521" x="0" y="15"/>
+            <object id="522" x="0" y="24"/>
+            
+            <object id="523" x="16" y="0"/>
+            <object id="524" x="32" y="6"/>
+            <object id="503" x="32" y="6"/>  <!-- geodata changes -->
+            
+            <object id="903" x="18" y="8.5" />
+            <object id="923" x="18" y="8.5" />
+            
+            <object id="950" x="16" y="0"/>
+            
+            <object id="5000" x="24" y="14"/>
+            
+            <object id="533" x="21" y="15" />
+            
+            <object id="534" x="17" y="21.5" />
+            <object id="500" x="17" y="21.5" />  <!-- geodata changes -->
+            
+            <object id="950" x="16" y="0"/>
+            
+        </square>
+        
+        <square
+            sy="0"
+            sx="1"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            
+            <object id="535" x="0" y="16" />
+            <object id="406" x="2" y="20" />
+            
+            <object id="450" x="13.4" y="4.35" />
+            <object id="504" x="13.4" y="4.35" />  <!-- geodata changes -->
+            
+            <object id="905" x="8" y="11" />
+            
+            <object id="50" x="32" y="-2"/>
+            <object id="400" x="15" y="0"/>
+            
+            <!--<object id="1001" x="23" y="13" /> removed by Sanya -->
+            
+            <object id="525" x="29.4" y="3.35"/>
+            <object id="505" x="29.4" y="3.35"/>  <!-- geodata changes -->
+            
+            <object id="5001" x="24" y="14"/>
+            
+            <object id="951" x="16" y="0"/>
+            
+            <object id="950" x="16" y="0"/>
+            
+            <object id="407" x="1.75" y="21.25" />
+            <object id="501" x="1.75" y="21.25" />  <!-- geodata changes -->
+            <object id="502" x="1.75" y="21.25" />  <!-- geodata changes -->
+            
+        </square>
+        
+        <square
+            sy="0"
+            sx="2"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            <object id="506" x="14" y="0" /> <!-- geodata changes -->
+            <object id="507" x="14" y="0" /> <!-- geodata changes -->
+            <object id="508" x="14" y="0" /> <!-- geodata changes -->
+            
+            <object id="401" x="27.5" y="3.5" />
+            <object id="509" x="27.5" y="3.5" /> <!-- geodata changes -->
+            <object id="510" x="27.5" y="3.5" /> <!-- geodata changes -->
+            
+            <object id="904" x="10.5" y="8.75" />
+            <object id="924" x="10.5" y="8.75" />
+            
+            <object id="952" x="16" y="0"/>
+            
+            <object id="950" x="16" y="0"/>
+            
+        </square>
+        
+        <square
+            sy="0"
+            sx="3"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            
+            <!-- <object id="1002" x="17" y="20" /> removed by Sanya -->
+            <object id="603" x="14" y="23" />
+            <object id="603" x="3" y="13" />
+            <object id="603" x="8.75" y="18" />
+            
+            <object id="402" x="24" y="10" />
+            <object id="511" x="24" y="10" /> <!-- geodata changes -->
+            <object id="512" x="24" y="10" /> <!-- geodata changes -->
+            <object id="513" x="24" y="10" /> <!-- geodata changes -->
+            
+            <object id="953" x="16" y="0"/>
+            
+            <object id="950" x="16" y="0"/>
+            
+        </square>
+        
+        <square
+            sy="0"
+            sx="4"
+            bgPath="bgCave_03.jpg"
+            
+            >
+            
+            <object id="908" x="7" y="22" />
+            
+            <!-- <object id="604" x="8" y="24" />-->
+            <object id="605" x="16" y="21" />
+            <object id="606" x="8" y="15" />
+            
+            <object id="954" x="16" y="0"/>
+            
+            <object id="526" x="30" y="22.75" />
+            <object id="516" x="30" y="22.75" /> <!-- geodata changes -->
+            
+            <object id="950" x="16" y="0"/>
+            
+        </square>
+        
+        <square
+            sy="0"
+            sx="5"
+            bgPath="bgCave_04.jpg"
+            
+            >
+            
+            <object id="4004" x="34" y="22" />
+            
+            <object id="530" x="13.5" y="20.5" />
+            <object id="515" x="13.5" y="20.5" /> <!-- geodata changes -->
+            
+            <object id="531" x="20.5" y="17.25" />
+            <object id="514" x="20.5" y="17.25" /> <!-- geodata changes -->
+            
+            <object id="955" x="16" y="0"/>
+            
+            <object id="950" x="16" y="0"/>
+            
+        </square>
+        
+        <square
+            sy="0"
+            sx="6"
+            
+            >
+            <object id="201" x="19" y="23" />
+            
+            <object id="2501" x="0" y="0" />
+            
+            <object id="70" x="15" y="15" />
+            
+            <object id="950" x="16" y="0"/>
+            
+            <object id="4005" x="1.5" y="18" />
+            <object id="4005" x="1.5" y="12" />
+            <object id="4005" x="1.5" y="6" />
+            <object id="4005" x="1.5" y="3" />
+            <!--
+             <object id="6002" x="26.5" y="16" />
+             -->
+        </square>
+        
+        <square
+            sy="0"
+            sx="7"
+            
+            >
+            
+            <object id="20" x="4" y="7" />
+            <object id="2501" x="0" y="0" />
+            
+            <object id="205" x="17" y="18" />
+            
+            <object id="206" x="30" y="18" />
+            
+            <object id="91" x="16" y="14" />
+            <object id="92" x="28" y="20" />
+            
+            <!--
+             <object id="101" x="16" y="14" />
+             <object id="102" x="28" y="20" />
+             -->
+            
+            <object id="21" x="9" y="7" />
+            <object id="22" x="27" y="7" />
+            
+            <object id="24" x="0" y="12" />
+            
+            <object id="203" x="6" y="18" />
+            
+            <object id="950" x="16" y="0"/>
+            
+        </square>
+        
+        <square
+            sy="0"
+            sx="8"
+            
+            >
+            
+            <object id="2501" x="0" y="0" />
+            
+            <object id="1000" x="15" y="10" />
+            
+            <object id="25" x="18" y="12" />
+            <object id="28" x="17" y="7" />
+            
+            <object id="204" x="10" y="18" />
+            
+            <object id="950" x="16" y="0"/>
+            
+            
+        </square>
+        
+        <square
+            sy="0"
+            sx="9"
+            
+            >
+            
+            <object id="2501" x="0" y="0" />
+            
+            <object id="30" x="7" y="7" />
+            
+            <object id="71" x="28" y="15" />
+            
+            <object id="202" x="0" y="14" />
+            
+            <object id="202" x="13" y="14" />
+            
+            <object id="950" x="16" y="0"/>
+            
+            <object id="300" x="27" y="20" />
+            <object id="308" x="27" y="23" />
+            
+            <object id="306" x="6" y="14" />
+            <object id="314" x="6" y="17" />
+        </square>
+        
+        <square
+            sy="0"
+            sx="10"
+            
+            >
+            
+            <object id="820" x="23" y="22" />
+            <object id="821" x="26" y="21.5" />
+            <object id="822" x="29" y="22" />
+            
+            <object id="2501" x="0" y="0" />
+            
+            <object id="31" x="19" y="17.87" />
+            
+            <object id="950" x="16" y="0"/>
+        </square>
+        
+        
+        <square
+            sy="0"
+            sx="11"
+            
+            >
+            
+            <object id="2501" x="0" y="0" />
+            
+            <object id="950" x="16" y="0"/>
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="0"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            
+            <object id="33000" x="0" y="12" />
+            <object id="403" x="405" y="22" />
+            
+            <object id="404" x="532" y="20" />
+            <!--
+             <object id="1000" x="31" y="20" />
+             -->
+        </square>
+        
+        <square
+            sy="1"
+            sx="1"
+            bgPath="bgCave_02.jpg"
+            
+            >
+            
+            <object id="800" x="17" y="13" />
+            <object id="801" x="27.5" y="31.5" />
+            <object id="802" x="30.5" y="31.5" />
+            
+            <object id="608" x="17" y="9.5" />
+            
+            <object id="2000" x="29" y="17" />
+        </square>
+        
+        <square
+            sy="1"
+            sx="2"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            
+            <object id="803" x="9.5" y="31.5" />
+            <object id="804" x="12.5" y="31.5" />
+            
+            <object id="806" x="22" y="14.5" />
+            <object id="807" x="30" y="10.5" />
+            
+            <object id="2001" x="11" y="17" />
+            
+            <object id="609" x="22" y="11" />
+            <object id="610" x="30" y="7" />
+        </square>
+        
+        <square
+            sy="1"
+            sx="3"
+            bgPath="bgCave_02.jpg"
+            
+            >
+            <object id="808" x="6" y="6.5" />
+            <object id="809" x="14" y="2.5" />
+            
+            <object id="611" x="6" y="3" />
+            
+            <object id="527" x="30" y="7" />
+            <object id="528" x="30" y="15" />
+            <object id="529" x="27" y="22" />
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="4"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            
+            <object id="2002" x="17" y="5" />
+            
+            <object id="405" x="28" y="20" />
+            
+            <object id="1500" x="28" y="7.5" />
+            
+            <object id="1600" x="28" y="6.5" />
+            <object id="1605" x="28" y="6.5" />
+        </square>
+        
+        <square
+            sy="1"
+            sx="5"
+            bgPath="bgCave_02.jpg"
+            
+            >
+            
+            <object id="1601" x="10" y="6.5" />
+            <object id="1606" x="10" y="6.5" />
+            <object id="1602" x="19.5" y="4.5" />
+            <object id="1607" x="19.5" y="4.5" />
+            
+            <object id="4002" x="33.47" y="21.7" />
+            <object id="4000" x="33.6" y="8.85" />
+            <!--
+             <object id="6001" x="11.5" y="12" />
+             -->
+            <object id="901" x="1" y="0" />
+            
+            <object id="1501" x="10" y="7.5" />
+            <object id="1502" x="19.5" y="5.5" />
+            
+            <object id="1700" x="29" y="14" />
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="6"
+            
+            >
+            <object id="33001" x="1" y="4" />
+            
+            <object id="4003" x="1.5" y="12" />
+            <object id="4006" x="1.5" y="8" />
+            
+            <object id="6000" x="1" y="12" />
+            
+            <object id="6005" x="0" y="12" />
+            
+            <object id="2500" x="0" y="0" />
+            
+            <object id="906" x="3" y="3" />
+            
+            <object id="907" x="0" y="3" />
+        </square>
+        
+        <square
+            sy="1"
+            sx="7"
+            
+            >
+            <!--
+             <object id="100" x="28" y="8" />
+             -->
+            <object id="2500" x="0" y="0" />
+            
+            <object id="900" x="24" y="0" />
+            
+            <object id="90" x="28" y="8.5" />
+            <object id="104" x="29" y="8" />
+            
+            <object id="101" x="11" y="23" />
+            <object id="102" x="23" y="23" />
+            
+            <object id="26" x="0" y="12" />
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="8"
+            
+            >
+            <object id="2500" x="0" y="0" />
+            
+            <!--
+             <object id="103" x="9" y="2" />
+             -->
+            
+            <object id="93" x="9" y="2" />
+            
+            <object id="100" x="4" y="21" />
+            <object id="103" x="4" y="23" />
+            
+            <object id="27" x="18" y="12" />
+            
+        </square>
+        
+        <square
+            sy="1"
+            sx="9"
+            
+            >
+            
+            <object id="812" x="10" y="12" />
+            <object id="813" x="10" y="15" />
+            
+            <object id="818" x="18" y="12" />
+            <object id="819" x="18" y="15" />
+            
+            <object id="2500" x="0" y="0" />
+            
+            <object id="72" x="31" y="3.5" />
+            <object id="517" x="31" y="3.5" />  <!-- geodata changes -->
+            
+            
+            <object id="201" x="0" y="14" />
+            
+            <object id="201" x="14" y="14" />
+            
+            <object id="32" x="16" y="5.95" />
+            
+            <object id="302" x="23" y="15" />
+            <object id="310" x="23" y="18" />
+            
+            <object id="307" x="6" y="15" />
+            <object id="315" x="6" y="18" />
+        </square>
+        
+        <square
+            sy="1"
+            sx="10"
+            
+            >
+            
+            
+            <object id="909" x="10" y="21" />
+            
+            <object id="823" x="22" y="0.5" />
+            <object id="825" x="30" y="0.5" />
+            
+            <object id="202" x="13" y="3" />
+            <object id="202" x="26" y="3" />
+            
+            <object id="2500" x="0" y="0" />
+            
+            <object id="73" x="6" y="15.47" />
+            <object id="518" x="6" y="15.47" />  <!-- geodata changes -->
+            
+            <object id="33" x="21" y="17" />
+            
+            <object id="303" x="3" y="22" />
+            <object id="311" x="3" y="25" />
+            
+            <object id="301" x="19" y="2" />
+            <object id="309" x="19" y="5" />
+        </square>
+        
+        <square
+            sy="1"
+            sx="11"
+            
+            >
+            
+            <object id="2500" x="0" y="0" />
+            
+            <object id="902" x="15" y="12" />
+            <object id="34" x="9" y="17" />
+            <object id="200" x="18" y="21" />
+        </square>
+        
+        <square
+            sy="2"
+            sx="0"
+            bgPath="bg_02.jpg"
+            
+            >
+            
+            
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="1"
+            bgPath="bg_01.jpg"
+            
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="2"
+            bgPath="bg_02.jpg"
+            
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="3"
+            bgPath="bg_01.jpg"
+            
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="4"
+            bgPath="bg_01.jpg"
+            
+            >
+            
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="5"
+            bgPath="bg_01.jpg"
+            >
+            <object id="4002" x="33.47" y="5" />
+            <object id="4002" x="33.47" y="13" />
+            <object id="4002" x="33.47" y="20" />
+        </square>
+        
+        <square
+            sy="2"
+            sx="6"
+            
+            >
+            
+            <object id="2501" x="0" y="0" />
+        </square>
+        
+        <square
+            sy="2"
+            sx="7"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            
+            <object id="2501" x="0" y="0" />
+        </square>
+        
+        <square
+            sy="2"
+            sx="8"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            <object id="2501" x="0" y="0" />
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="9"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            <object id="2501" x="0" y="0" />
+            
+        </square>
+        
+        <square
+            sy="2"
+            sx="10"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            
+            <object id="201" x="20" y="2" />
+            
+            <object id="2501" x="0" y="0" />
+            
+            <object id="304" x="28" y="3" />
+            <object id="312" x="28" y="6" />
+        </square>
+        
+        <square
+            sy="2"
+            sx="11"
+            bgPath="bgCave_01.jpg"
+            
+            >
+            <object id="201" x="5" y="2" />
+            
+            <object id="2501" x="0" y="0" />
+            
+            <object id="305" x="13" y="3" />
+            <object id="313" x="13" y="6" />
+        </square>
+        
+    </landscape>
+    
+</world>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dialogues>
+    
+    <dialog id="0" posX="532" posY="420" scale="0.4">
+        <page num="0">
+            100001
+        </page>
+        <page num="1">
+            100002
+        </page>
+    </dialog>
+    
+    <dialog id="1" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            100101
+        </page>
+    </dialog>
+    
+    <dialog id="2" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            100201
+        </page>
+        <page num="1">
+            100202
+        </page>
+        <page num="2">
+            100203
+        </page>
+        <page num="3">
+            100204
+        </page>
+    </dialog>
+    
+    <dialog id="4" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            100401
+        </page>
+        
+    </dialog>
+    
+    <dialog id="5" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            100501
+        </page>
+        <page num="1">
+            100502
+        </page>
+    </dialog>
+    
+    <dialog id="6" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            100601
+        </page>
+        <page num="1">
+            100602
+        </page>
+    </dialog>
+    
+    <dialog id="7" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            100701
+        </page>
+        <page num="1">
+            100702
+        </page>
+        <page num="2">
+            100703
+        </page>
+    </dialog>
+    
+    <dialog id="8" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            100801
+        </page>
+    </dialog>
+    
+    <dialog id="10" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            101001
+        </page>
+        <page num="1">
+            101002
+        </page>
+    </dialog>
+    
+    <dialog id="11" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            101101
+        </page>
+    </dialog>
+    
+    <dialog id="12" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            101201
+        </page>
+        <page num="1">
+            101202
+        </page>
+    </dialog>
+    
+    <dialog id="13" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            101301
+        </page>
+        <page num="1">
+            101302
+        </page>
+        <page num="2">
+            101303
+        </page>
+    </dialog>
+    
+    <dialog id="14" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            101401
+        </page>
+        <page num="1">
+            101402
+        </page>
+    </dialog>
+    
+    <dialog id="15" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            101501
+        </page>
+    </dialog>
+    <!--LEVEL 1_1_3-->
+    <dialog id="20" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            102001
+        </page>
+        <page num="1">
+            102002
+        </page>
+        <page num="2">
+            102003
+        </page>
+    </dialog>
+    
+    <dialog id="22" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            102201
+        </page>
+    </dialog>
+    
+    <dialog id="23" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            102301
+        </page>
+    </dialog>
+    
+    <dialog id="24" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            102401
+        </page>
+    </dialog>
+    
+    <dialog id="25" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            102501
+        </page>
+    </dialog>
+    
+    <dialog id="26" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            102601
+        </page>
+    </dialog>
+    
+    <dialog id="27" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            102701
+        </page>
+    </dialog>
+    
+    <dialog id="28" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            102801
+        </page>
+    </dialog>
+    
+    <dialog id="29" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            102901
+        </page>
+    </dialog>
+    
+    <!--1_2_1-->
+    <dialog id="30" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            103001
+        </page>
+        <page num="0">
+            103002
+        </page>
+    </dialog>
+    
+    
+    <dialog id="32" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            103201
+        </page>
+    </dialog>
+    
+    <dialog id="33" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            103301
+        </page>
+    </dialog>
+    
+    <dialog id="40" posX="530" posY="400" scale="0.5">
+        <page num="0">
+            104001
+        </page>
+    </dialog>
+    <dialog id="41" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            104101
+        </page>
+    </dialog>
+    
+    <dialog id="42" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            104201
+        </page>
+        <page num="1">
+            104202
+        </page>
+    </dialog>
+    
+    <dialog id="43" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            104301
+        </page>
+    </dialog>
+    
+    <dialog id="44" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            104401
+        </page>
+        <page num="0">
+            104402
+        </page>
+    </dialog>
+    
+    
+    <!--1_2_2-->
+    <dialog id="50" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            105001
+        </page>
+    </dialog>
+    <dialog id="51" posX="530" posY="400" scale="0.5">
+        <page num="0">
+            105101
+        </page>
+    </dialog>
+    <dialog id="52" posX="530" posY="400" scale="0.5">
+        <page num="0">
+            105201
+        </page>
+    </dialog>
+    <dialog id="53" posX="530" posY="400" scale="0.5">
+        <page num="0">
+            105301
+        </page>
+        <page num="1">
+            105302
+        </page>
+        <page num="2">
+            105303
+        </page>
+    </dialog>
+    <dialog id="54" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            105401
+        </page>
+    </dialog>
+    <dialog id="55" posX="530" posY="400" scale="0.5">
+        <page num="0">
+            105501
+        </page>
+        <page num="1">
+            105502
+        </page>
+        <page num="2">
+            105503
+        </page>
+        <page num="3">
+            105504
+        </page>
+    </dialog>
+    <dialog id="56" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            105601
+        </page>
+    </dialog>
+    <dialog id="57" posX="530" posY="400" scale="0.5">
+        <page num="0">
+            105701
+        </page>
+    </dialog>
+    <dialog id="58" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            105801
+        </page>
+    </dialog>
+    <dialog id="59" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            105901
+        </page>
+    </dialog>
+    <dialog id="60" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            106001
+        </page>
+    </dialog>
+    <dialog id="61" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            106101
+        </page>
+    </dialog>
+    <dialog id="62" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            106201
+        </page>
+    </dialog>
+    <dialog id="63" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            106301
+        </page>
+    </dialog>
+    <dialog id="64" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            106401
+        </page>
+    </dialog>
+    
+    <dialog id="65" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            106501
+        </page>
+    </dialog>
+    
+    <dialog id="66" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            106601
+        </page>
+    </dialog>
+    
+    <dialog id="67" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            106701
+        </page>
+    </dialog>
+    
+    <!--1_3_1-->
+    <dialog id="70" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            107001
+        </page>
+    </dialog>
+    
+    <!---->
+    <dialog id="90" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            109001
+        </page>
+    </dialog>
+    <dialog id="91" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            109101
+        </page>
+        <page num="1">
+            109102
+        </page>
+        <page num="2">
+            109103
+        </page>
+        <page num="3">
+            109104
+        </page>
+    </dialog>
+    <dialog id="92" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            109201
+        </page>
+    </dialog>
+    <dialog id="93" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            109301
+        </page>
+        <page num="1">
+            109302
+        </page>
+    </dialog>
+    <dialog id="94" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            109401
+        </page>
+    </dialog>
+    <dialog id="95" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            109501
+        </page>
+    </dialog>
+    <dialog id="96" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            109601
+        </page>
+    </dialog>
+    <dialog id="97" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            109701
+        </page>
+    </dialog>
+    <dialog id="98" posX="530" posY="400" scale="0.3">
+        <page num="0">
+            109801
+        </page>
+        <page num="1">
+            109802
+        </page>
+    </dialog>
+    <dialog id="99" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            109802
+        </page>
+    </dialog>
+    <dialog id="100" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            110001
+        </page>
+        <page num="1">
+            110002
+        </page>
+    </dialog>
+    <dialog id="101" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            110101
+        </page>
+    </dialog>
+    <dialog id="102" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            110201
+        </page>
+        <page num="1">
+            110202
+        </page>
+    </dialog>
+    <dialog id="103" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            110301
+        </page>
+    </dialog>
+    <dialog id="104" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            110401
+        </page>
+    </dialog>
+    
+    <dialog id="105" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            110501
+        </page>
+    </dialog>
+    
+    <dialog id="106" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            110601
+        </page>
+        <page num="1">
+            110602
+        </page>
+    </dialog>
+    
+    <dialog id="107" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            110701
+        </page>
+        <page num="1">
+            110702
+        </page>
+    </dialog>
+    
+    <dialog id="108" posX="530" posY="400" scale="0.4">
+        <page num="0">
+            110801
+        </page>
+    </dialog>
+    
+</dialogues>

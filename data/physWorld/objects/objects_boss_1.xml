@@ -1,0 +1,3704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<levelObjects>
+    
+    <object active="1" id="777">
+        <physic type="dynamic" subtype="player" x="0" y="0">
+            <polygon>
+                <point x="-1" y="-2">
+                </point>
+                <point x="-1" y="2">
+                </point>
+                <point x="1" y="2">
+                </point>
+                <point x="1" y="-2">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="playerAnimation" x="-0.8" y="1.4" z="0" >
+            <animations>
+                <animation name="attack" speedFPS="60" pathPList="textures/mobs/elf/elf_attack.plist" pathSprite="textures/mobs/elf/elf_attack.png" viewPartAnim="-1" />
+                <animation name="hit" speedFPS="30" pathPList="textures/mobs/elf/elf_hit.plist" pathSprite="textures/mobs/elf/elf_hit.png" viewPartAnim="-1" />
+                <animation name="wait" speedFPS="20" pathPList="textures/mobs/elf/elf_wait.plist" pathSprite="textures/mobs/elf/elf_wait.png" viewPartAnim="-1" />
+                <animation name="fall" speedFPS="60" pathPList="textures/mobs/elf/elf_fall.plist" pathSprite="textures/mobs/elf/elf_fall.png" viewPartAnim="-1" />
+                <animation name="death" speedFPS="20" pathPList="textures/mobs/elf/elf_death.plist" pathSprite="textures/mobs/elf/elf_death.png" viewPartAnim="-1" />
+                <animation name="joy" speedFPS="15" pathPList="textures/mobs/elf/elf_joy.plist" pathSprite="textures/mobs/elf/elf_joy.png" viewPartAnim="-1" />
+                <animation name="jumpSide" speedFPS="200" pathPList="textures/mobs/elf/elf_jumpSide.plist" pathSprite="textures/mobs/elf/elf_jumpSide.png" viewPartAnim="9" />
+                <animation name="run" speedFPS="30" pathPList="textures/mobs/elf/elf_run.plist" pathSprite="textures/mobs/elf/elf_run.png" viewPartAnim="-1" />
+                <animation name="slideOnRope" speedFPS="10" pathPList="textures/mobs/elf/elf_slideOnRope.plist" pathSprite="textures/mobs/elf/elf_slideOnRope.png" viewPartAnim="-1" />
+                <animation name="stepLeft" speedFPS="30" pathPList="textures/mobs/elf/elf_stepLeft.plist" pathSprite="textures/mobs/elf/elf_stepLeft.png" viewPartAnim="-1" />
+                <animation name="stepRight" speedFPS="30" pathPList="textures/mobs/elf/elf_stepRight.plist" pathSprite="textures/mobs/elf/elf_stepRight.png" viewPartAnim="-1" />
+                
+                <!--
+                 <animation name="jumpPlace" speedFPS="200" pathPList="textures/mobs/elf/elf_jumpPlace.plist" pathSprite="textures/mobs/elf/elf_jumpPlace.png" viewPartAnim="16" />
+                 <animation name="inStreamOfWind" speedFPS="30" pathPList="textures/mobs/elf/elf_inStreamOfWind.plist" pathSprite="textures/mobs/elf/elf_inStreamOfWind.png" viewPartAnim="-1" />
+                 <animation name="jumpingBackward" speedFPS="30" pathPList="textures/mobs/elf/elf_jumpingBackward.plist" pathSprite="textures/mobs/elf/elf_jumpingBackward.png" viewPartAnim="-1" />
+                 <animation name="lookAround" speedFPS="30" pathPList="textures/mobs/elf/elf_lookAround.plist" pathSprite="textures/mobs/elf/elf_lookAround.png" viewPartAnim="-1" />
+                 <animation name="onEdge" speedFPS="30" pathPList="textures/mobs/elf/elf_onEdge.plist" pathSprite="textures/mobs/elf/elf_onEdge.png" viewPartAnim="-1" />
+                 <animation name="onViscousSoil" speedFPS="30" pathPList="textures/mobs/elf/elf_onViscousSoil.plist" pathSprite="textures/mobs/elf/elf_onViscousSoil.png" viewPartAnim="-1" />
+                 <animation name="slideOnHillSlope" speedFPS="30" pathPList="textures/mobs/elf/elf_slideOnHillSlope.plist" pathSprite="textures/mobs/elf/elf_slideOnHillSlope.png" viewPartAnim="-1" />
+                 <animation name="swim" speedFPS="30" pathPList="textures/mobs/elf/elf_swim.plist" pathSprite="textures/mobs/elf/elf_swim.png" viewPartAnim="-1" />
+                 <animation name="turnLeft" speedFPS="100" pathPList="textures/mobs/elf/elf_turnLeft.plist" pathSprite="textures/mobs/elf/elf_turnLeft.png" viewPartAnim="-1" />
+                 <animation name="turnRight" speedFPS="100" pathPList="textures/mobs/elf/elf_turnRight.plist" pathSprite="textures/mobs/elf/elf_turnRight.png" viewPartAnim="-1" />
+                 <animation name="wakinSomeone" speedFPS="30" pathPList="textures/mobs/elf/elf_wakinSomeone.plist" pathSprite="textures/mobs/elf/elf_wakinSomeone.png" viewPartAnim="-1" />
+                 <animation name="hangingOnLedge" speedFPS="30" pathPList="textures/mobs/elf/elf_hangingOnLedge.plist" pathSprite="textures/mobs/elf/elf_hangingOnLedge.png" viewPartAnim="-1" /> -->
+            </animations>
+        </graphic>
+        
+        <ai type="player">
+        </ai>
+    </object>
+    
+    <object active="1" id="1001">
+        <physic type="dynamic" subtype="walkingMob" x="0" y="0">
+            <polygon>
+                <point x="-3" y="-1">
+                </point>
+                <point x="-3" y="3">
+                </point>
+                <point x="3" y="3">
+                </point>
+                <point x="3" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="mechanicSpiderAnimation" x="0" y="2.5" z="0">
+            <animations>
+                <!--
+                 <animation name="run" speedFPS="30" pathPList="textures/mobs/mechanicSpider/mechanicSpider_run.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_run.png" viewPartAnim="-1" />
+                 <animation name="turnLeft" speedFPS="100" pathPList="textures/mobs/mechanicSpider/mechanicSpider_turnLeft.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_turnLeft.png" viewPartAnim="-1" />
+                 -->
+                <animation name="turnRight" speedFPS="100" pathPList="textures/mobs/mechanicSpider/mechanicSpider_turnRight.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_turnRight.png" viewPartAnim="-1" />
+                <animation name="wait" speedFPS="30" pathPList="textures/mobs/mechanicSpider/mechanicSpider_wait.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_wait.png" viewPartAnim="-1" />
+                <animation name="death" speedFPS="15" pathPList="textures/mobs/mechanicSpider/mechanicSpider_death.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_death.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+        
+        <ai type="walkingMob">
+            <way cyclic="1" speed="4">
+                <point x="14" y="0"/>
+            </way>
+        </ai>
+    </object>
+    
+    <object active="1" id="1002">
+        <physic type="dynamic" subtype="walkingMob" x="0" y="0">
+            <polygon>
+                <point x="-3" y="-1">
+                </point>
+                <point x="-3" y="3">
+                </point>
+                <point x="3" y="3">
+                </point>
+                <point x="3" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="mechanicSpiderAnimation" x="0" y="2.5" z="0">
+            <animations>
+                <!--
+                 <animation name="run" speedFPS="30" pathPList="textures/mobs/mechanicSpider/mechanicSpider_run.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_run.png" viewPartAnim="-1" />
+                 <animation name="turnLeft" speedFPS="100" pathPList="textures/mobs/mechanicSpider/mechanicSpider_turnLeft.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_turnLeft.png" viewPartAnim="-1" />
+                 -->
+                <animation name="turnRight" speedFPS="100" pathPList="textures/mobs/mechanicSpider/mechanicSpider_turnRight.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_turnRight.png" viewPartAnim="-1" />
+                <animation name="wait" speedFPS="30" pathPList="textures/mobs/mechanicSpider/mechanicSpider_wait.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_wait.png" viewPartAnim="-1" />
+                <animation name="death" speedFPS="15" pathPList="textures/mobs/mechanicSpider/mechanicSpider_death.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_death.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+        
+        <ai type="walkingMob">
+            <way cyclic="1" speed="4">
+                <point x="8" y="0"/>
+            </way>
+        </ai>
+    </object>
+    
+    <object active="1" id="1003">
+        <physic type="dynamic" subtype="walkingMob" x="0" y="0">
+            <polygon>
+                <point x="-3" y="-1">
+                </point>
+                <point x="-3" y="3">
+                </point>
+                <point x="3" y="3">
+                </point>
+                <point x="3" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="mechanicSpiderAnimation" x="0" y="2.5" z="0">
+            <animations>
+                <!--
+                 <animation name="run" speedFPS="30" pathPList="textures/mobs/mechanicSpider/mechanicSpider_run.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_run.png" viewPartAnim="-1" />
+                 <animation name="turnLeft" speedFPS="100" pathPList="textures/mobs/mechanicSpider/mechanicSpider_turnLeft.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_turnLeft.png" viewPartAnim="-1" />
+                 -->
+                <animation name="turnRight" speedFPS="100" pathPList="textures/mobs/mechanicSpider/mechanicSpider_turnRight.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_turnRight.png" viewPartAnim="-1" />
+                <animation name="wait" speedFPS="30" pathPList="textures/mobs/mechanicSpider/mechanicSpider_wait.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_wait.png" viewPartAnim="-1" />
+                <animation name="death" speedFPS="15" pathPList="textures/mobs/mechanicSpider/mechanicSpider_death.plist" pathSprite="textures/mobs/mechanicSpider/mechanicSpider_death.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+        
+        <ai type="walkingMob">
+            <way cyclic="1" speed="4">
+                <point x="14" y="0"/>
+            </way>
+        </ai>
+    </object>
+    <!---                <point x="0" y="2">
+     </point>
+     <point x="0" y="3">
+     </point>
+     <point x="1" y="3">
+     </point>
+     <point x="1" y="2">
+     </point>
+     -->
+    <object active="0" id="1000">
+        <physic type="dynamic" subtype="boss1" x="0" y="0">
+            <polygon>
+                
+                <point x="-4.5" y="-4">
+                </point>
+                <point x="-4.5" y="-2">
+                </point>
+                
+                <point x="-5" y="-2">
+                </point>
+                
+                <point x="-5" y="0">
+                </point>
+                <point x="-4" y="0">
+                </point>
+                <point x="-4" y="3">
+                </point>
+                
+                <point x="-2" y="3">
+                </point>
+                <point x="-2" y="4">
+                </point>
+                <point x="3" y="4">
+                </point>
+                <point x="3" y="1">
+                </point>
+                
+                <point x="2" y="1">
+                </point>
+                <point x="2" y="-2">
+                </point>
+                
+                <point x="0" y="-2">
+                </point>
+                <point x="0" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="bossAnimation" x="0" y="0" z="1">
+            <animations>
+                <animation name="attack" speedFPS="100" pathPList="textures/mobs/boss/boss_attack.plist" pathSprite="textures/mobs/boss/boss_attack.png" viewPartAnim="-1" />
+                <animation name="wait" speedFPS="40" pathPList="textures/mobs/boss/boss_wait.plist" pathSprite="textures/mobs/boss/boss_wait.png" viewPartAnim="-1" />
+                <animation name="death" speedFPS="10" pathPList="textures/mobs/boss/boss_death.plist" pathSprite="textures/mobs/boss/boss_death.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+        
+        <ai type="boss1">
+            <config
+                hp="10"
+                >
+            </config>
+        </ai>
+        
+    </object>
+    
+    <object active="1" id="100">
+        <physic type="dynamic" subtype="cloud" x="0" y="0">
+            <polygon>
+                <point x="-0.75" y="0">
+                </point>
+                <point x="-0.75" y="0.5">
+                </point>
+                <point x="0.75" y="0.5">
+                </point>
+                <point x="0.75" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleStep1.png" x="0" y="-10"></sprite>
+        </graphic>
+        
+        <ai type="movable">
+            <way cyclic="0" speed="20" move="0">
+                <point x="0" y="-19"/>
+            </way>
+        </ai>
+    </object>
+    
+    <object active="1" id="101">
+        <physic type="dynamic" subtype="cloud" x="0" y="0">
+            <polygon>
+                <point x="-0.75" y="0">
+                </point>
+                <point x="-0.75" y="0.5">
+                </point>
+                <point x="1.75" y="0.5">
+                </point>
+                <point x="1.75" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0.5" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleStep2.png" x="0" y="-10"></sprite>
+        </graphic>
+        
+        <ai type="movable">
+            <way cyclic="0" speed="20" move="0">
+                <point x="0" y="-33.5"/>
+            </way>
+        </ai>
+    </object>
+    
+    <object active="1" id="102">
+        <physic type="dynamic" subtype="cloud" x="0" y="0">
+            <polygon>
+                <point x="-0.75" y="0">
+                </point>
+                <point x="-0.75" y="1">
+                </point>
+                <point x="1.75" y="1">
+                </point>
+                <point x="1.75" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0.5" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleStep3.png" x="0" y="-10"></sprite>
+        </graphic>
+        
+        <ai type="movable">
+            <way cyclic="0" speed="20" move="0">
+                <point x="0" y="-32.5"/>
+            </way>
+        </ai>
+    </object>
+    
+    <object active="1" id="103">
+        <physic type="dynamic" subtype="cloud" x="0" y="0">
+            <polygon>
+                <point x="-0.75" y="0">
+                </point>
+                <point x="-0.75" y="1">
+                </point>
+                <point x="1.75" y="1">
+                </point>
+                <point x="1.75" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0.5" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleStep4.png" x="0" y="-10"></sprite>
+        </graphic>
+        
+        <ai type="movable">
+            <way cyclic="0" speed="20" move="0">
+                <point x="0" y="-28"/>
+            </way>
+        </ai>
+    </object>
+    
+    <object active="1" id="104">
+        <physic type="static" subtype="cloud" x="0" y="0">
+            <polygon>
+                <point x="-3.5" y="0">
+                </point>
+                <point x="-3.5" y="1">
+                </point>
+                <point x="3.5" y="1">
+                </point>
+                <point x="3.5" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleStep.png" x="0" y="-10"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="105">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-2" y="0">
+                </point>
+                <point x="-2" y="0.5">
+                </point>
+                <point x="2" y="0.5">
+                </point>
+                <point x="2" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleStep.png" x="0" y="-10"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="20">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-12" y="-1">
+                </point>
+                <point x="-12" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="1">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="21">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-1">
+                </point>
+                <point x="-11" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="22">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-1">
+                </point>
+                <point x="-11" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="23">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-1">
+                </point>
+                <point x="-11" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="0" id="24">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1" y="-4">
+                </point>
+                <point x="-1" y="12">
+                </point>
+                <point x="1" y="12">
+                </point>
+                <point x="1" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    <object active="1" id="25">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1" y="-3">
+                </point>
+                <point x="-1" y="12">
+                </point>
+                <point x="1" y="12">
+                </point>
+                <point x="1" y="-3">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    <object active="1" id="26">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1" y="-12">
+                </point>
+                <point x="-1" y="12">
+                </point>
+                <point x="1" y="12">
+                </point>
+                <point x="1" y="-12">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    <object active="1" id="27">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1" y="-12">
+                </point>
+                <point x="-1" y="12">
+                </point>
+                <point x="1" y="12">
+                </point>
+                <point x="1" y="-12">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    <object active="1" id="28">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-1">
+                </point>
+                <point x="-11" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="29">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-1">
+                </point>
+                <point x="-11" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="30">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-1">
+                </point>
+                <point x="-11" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="31">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-7" y="-0.87">
+                </point>
+                <point x="-7" y="1.13">
+                </point>
+                <point x="11" y="1.13">
+                </point>
+                <point x="11" y="-0.87">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="32">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-1">
+                </point>
+                <point x="-11" y="1">
+                </point>
+                <point x="7" y="1">
+                </point>
+                <point x="7" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="33">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-7" y="-1">
+                </point>
+                <point x="-7" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="34">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-1">
+                </point>
+                <point x="-11" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="35">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-1">
+                </point>
+                <point x="-11" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="36">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-1">
+                </point>
+                <point x="-11" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="37">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-1">
+                </point>
+                <point x="-11" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="38">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-1">
+                </point>
+                <point x="-11" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="39">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-1">
+                </point>
+                <point x="-11" y="1">
+                </point>
+                <point x="11" y="1">
+                </point>
+                <point x="11" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/castleFloor.png" x="0" y="-50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="70">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-10" y="8">
+                </point>
+                <point x="-11" y="8">
+                </point>
+                <point x="-11" y="10">
+                </point>
+                <point x="-8.5" y="10">
+                </point>
+                <point x="9" y="-7">
+                </point>
+                <point x="9" y="-9">
+                </point>
+                <point x="7.5" y="-9">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/stages1.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="71">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="12" y="2">
+                </point>
+                <point x="16" y="2">
+                </point>
+                <point x="16" y="4">
+                </point>
+                <point x="11" y="4">
+                </point>
+                <point x="-10" y="-7">
+                </point>
+                <point x="-10" y="-9">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/stages2.png" x="50" y="-90"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="72">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-6" y="1.45">
+                </point>
+                <point x="-8" y="1.45">
+                </point>
+                <point x="-8" y="3.45">
+                </point>
+                <point x="-4" y="3.45">
+                </point>
+                <point x="4" y="-1">
+                </point>
+                <point x="4" y="-3">
+                </point>
+                <point x="3" y="-3">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="-0.03" z="0">
+            <sprite path="textures/scenes/world/level3/stages3_1.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    <object active="1" id="517">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="4" y="-3">
+                </point>
+                <point x="4" y="-1">
+                </point>
+                <point x="5" y="-1">
+                </point>
+                <point x="5" y="-3">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    <object active="1" id="73">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="4" y="0.53">
+                </point>
+                <point x="8" y="0.53">
+                </point>
+                <point x="8" y="2.53">
+                </point>
+                <point x="4" y="2.53">
+                </point>
+                <point x="-4" y="-2">
+                </point>
+                <point x="-4" y="-4">
+                </point>
+                <point x="-3" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/stages4_1.png" x="-32" y="-32"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="518">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5" y="-4">
+                </point>
+                <point x="-5" y="-2">
+                </point>
+                <point x="-4" y="-2">
+                </point>
+                <point x="-4" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    
+    <object active="1" id="200">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/horn.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="201">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/shield.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="202">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/shield.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    
+    <object active="1" id="203">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/blindRight.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="204">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/blindLeft.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="205">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/blindLeft.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    
+    <object active="1" id="206">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/blindRight.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="280">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/effects/black_white.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="281">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/effects/black_white.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="300">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/torch1.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="301">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/torch1.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="302">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/torch1.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="303">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/torch2.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="304">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/torch2.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="305">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/torch2.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="306">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/torch2.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="307">
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level3/torch1.png" x="0" y="0"></sprite>
+        </graphic>
+        
+    </object>
+    
+    <object active="1" id="308">
+        <graphic type="animation" x="0.33" y="-0.25" z="0">
+            <animations>
+                <animation name="wait" speedFPS="6" pathPList="textures/mobs/torch/lightOfTheTorch_wait.plist" pathSprite="textures/mobs/torch/lightOfTheTorch_wait.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+    </object>
+    
+    <object active="1" id="309">
+        <graphic type="animation" x="0.33" y="-0.25" z="0">
+            <animations>
+                <animation name="wait" speedFPS="6" pathPList="textures/mobs/torch/lightOfTheTorch_wait.plist" pathSprite="textures/mobs/torch/lightOfTheTorch_wait.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+    </object>
+    
+    <object active="1" id="310">
+        <graphic type="animation" x="0.33" y="-0.25" z="0">
+            <animations>
+                <animation name="wait" speedFPS="6" pathPList="textures/mobs/torch/lightOfTheTorch_wait.plist" pathSprite="textures/mobs/torch/lightOfTheTorch_wait.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+    </object>
+    
+    <object active="1" id="311">
+        <graphic type="animation" x="0.33" y="-0.25" z="0">
+            <animations>
+                <animation name="wait" speedFPS="6" pathPList="textures/mobs/torch/lightOfTheTorch_wait.plist" pathSprite="textures/mobs/torch/lightOfTheTorch_wait.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+    </object>
+    
+    <object active="1" id="312">
+        <graphic type="animation" x="0.33" y="-0.25" z="0">
+            <animations>
+                <animation name="wait" speedFPS="6" pathPList="textures/mobs/torch/lightOfTheTorch_wait.plist" pathSprite="textures/mobs/torch/lightOfTheTorch_wait.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+    </object>
+    
+    <object active="1" id="313">
+        <graphic type="animation" x="0.33" y="-0.25" z="0">
+            <animations>
+                <animation name="wait" speedFPS="6" pathPList="textures/mobs/torch/lightOfTheTorch_wait.plist" pathSprite="textures/mobs/torch/lightOfTheTorch_wait.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+    </object>
+    
+    <object active="1" id="314">
+        <graphic type="animation" x="0.33" y="-0.25" z="0">
+            <animations>
+                <animation name="wait" speedFPS="6" pathPList="textures/mobs/torch/lightOfTheTorch_wait.plist" pathSprite="textures/mobs/torch/lightOfTheTorch_wait.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+    </object>
+    
+    <object active="1" id="315">
+        <graphic type="animation" x="0.33" y="-0.25" z="0">
+            <animations>
+                <animation name="wait" speedFPS="6" pathPList="textures/mobs/torch/lightOfTheTorch_wait.plist" pathSprite="textures/mobs/torch/lightOfTheTorch_wait.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+    </object>
+    
+    <!---->
+    <!--Island 2 begin-->
+    <object active="1" id="520">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-5">
+                </point>
+                <point x="-9" y="6">
+                </point>
+                <point x="10" y="6">
+                </point>
+                <point x="10" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="521">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-5">
+                </point>
+                <point x="-9" y="5">
+                </point>
+                <point x="9" y="5">
+                </point>
+                <point x="9" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="522">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-5">
+                </point>
+                <point x="-9" y="5.5">
+                </point>
+                <point x="7.75" y="5.5">
+                </point>
+                <point x="7.75" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="523">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-6" y="-5">
+                </point>
+                <point x="-6" y="6">
+                </point>
+                <point x="2" y="5">
+                </point>
+                <point x="7" y="5">
+                </point>
+                <point x="7" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    
+    <object active="1" id="524">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-5">
+                </point>
+                <point x="-9" y="5.5">
+                </point>
+                <point x="-3" y="5.5">
+                </point>
+                <point x="-3" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="503">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5" y="-5">
+                </point>
+                <point x="-5" y="5.5">
+                </point>
+                <point x="-4.5" y="6">
+                </point>
+                <point x="-3.5" y="6">
+                </point>
+                <point x="11" y="2">
+                </point>
+                <point x="11" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    
+    <object active="1" id="525">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-11" y="-5">
+                </point>
+                <point x="-11" y="5.5">
+                </point>
+                <point x="8" y="5.5">
+                </point>
+                <point x="8" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="505">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5" y="-5">
+                </point>
+                <point x="-5" y="5.5">
+                </point>
+                <point x="-4.5" y="6">
+                </point>
+                <point x="2" y="5.5">
+                </point>
+                <point x="8" y="5.5">
+                </point>
+                <point x="8" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    
+    <object active="1" id="526">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-8.75" y="-5">
+                </point>
+                <point x="-8.75" y="5.5">
+                </point>
+                <point x="-5.75" y="5.5">
+                </point>
+                <point x="6" y="4.5">
+                </point>
+                <point x="9" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="516">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5.25" y="-5">
+                </point>
+                <point x="-5.25" y="5">
+                </point>
+                <point x="-4.5" y="6">
+                </point>
+                <point x="3" y="4.5">
+                </point>
+                <point x="3" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    
+    <object active="1" id="527">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-4">
+                </point>
+                <point x="-9" y="5">
+                </point>
+                
+                <point x="9" y="5">
+                </point>
+                
+                <point x="9" y="2">
+                </point>
+                <point x="1" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="528">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-5">
+                </point>
+                <point x="-9" y="5">
+                </point>
+                <point x="9" y="5">
+                </point>
+                <point x="9" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="529">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-5">
+                </point>
+                <point x="-9" y="5">
+                </point>
+                <point x="9" y="5">
+                </point>
+                <point x="9" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    
+    <object active="1" id="530">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-10" y="-5">
+                </point>
+                <point x="-10" y="5.5">
+                </point>
+                <point x="-8.5" y="5.5">
+                </point>
+                <point x="-6" y="4.5">
+                </point>
+                <point x="-5.5" y="3.5">
+                </point>
+                <point x="-5.5" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="515">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5.5" y="-5">
+                </point>
+                <point x="-5.5" y="3.5">
+                </point>
+                <point x="-2" y="2">
+                </point>
+                <point x="-2" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    
+    <object active="1" id="531">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-5">
+                </point>
+                <point x="-9" y="5.25">
+                </point>
+                <point x="9" y="5.25">
+                </point>
+                <point x="9" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="514">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5.5" y="-5">
+                </point>
+                <point x="-5.5" y="5.25">
+                </point>
+                <point x="-5" y="6">
+                </point>
+                <point x="0" y="5.25">
+                </point>
+                <point x="0" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    
+    <object active="1" id="532">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-5">
+                </point>
+                <point x="-9" y="5">
+                </point>
+                <point x="9" y="5">
+                </point>
+                <point x="9" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="533">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-5">
+                </point>
+                <point x="-9" y="5">
+                </point>
+                <point x="9" y="5">
+                </point>
+                <point x="9" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="11">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    
+    <object active="1" id="534">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9.25" y="-13">
+                </point>
+                <point x="-9.25" y="5.5">
+                </point>
+                <point x="0" y="5.5">
+                </point>
+                <point x="0" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="500">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5.75" y="-5">
+                </point>
+                <point x="-5.75" y="5.5">
+                </point>
+                <point x="-5.25" y="6">
+                </point>
+                <point x="8" y="5">
+                </point>
+                <point x="13" y="4">
+                </point>
+                <point x="13" y="-0.5">
+                </point>
+                <point x="9" y="-0.5">
+                </point>
+                <point x="7" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    
+    <object active="1" id="535">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-7.25">
+                </point>
+                <point x="-9" y="5">
+                </point>
+                <point x="6" y="5">
+                </point>
+                <point x="6" y="-7.25">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="100">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="536">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-5">
+                </point>
+                <point x="-9" y="5">
+                </point>
+                <point x="9" y="5">
+                </point>
+                <point x="9" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="537">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-5">
+                </point>
+                <point x="-9" y="5">
+                </point>
+                <point x="9" y="5">
+                </point>
+                <point x="9" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="538">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-5">
+                </point>
+                <point x="-9" y="5">
+                </point>
+                <point x="9" y="5">
+                </point>
+                <point x="9" y="-5">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island2.png" x="0" y="-100"></sprite>
+        </graphic>
+    </object>
+    
+    <!-- Island 1 begin-->
+    
+    <object active="1" id="400">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-4">
+                </point>
+                <point x="-9" y="4">
+                </point>
+                <point x="9" y="4">
+                </point>
+                <point x="9" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    
+    <object active="1" id="506">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-7" y="-4">
+                </point>
+                <point x="-7" y="4.5">
+                </point>
+                <point x="-2" y="4.5">
+                </point>
+                <point x="-2" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="507">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-10" y="-4">
+                </point>
+                <point x="-10" y="5.5">
+                </point>
+                <point x="-9" y="5.5">
+                </point>
+                <point x="-7" y="4.5">
+                </point>
+                <point x="-7" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    <object active="1" id="508">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-2" y="-4">
+                </point>
+                <point x="-2" y="4.5">
+                </point>
+                <point x="4.5" y="5.75">
+                </point>
+                <point x="5.5" y="5.75">
+                </point>
+                <point x="5.5" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    
+    <object active="1" id="401">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-9" y="-4">
+                </point>
+                <point x="-9" y="3">
+                </point>
+                <point x="7" y="3">
+                </point>
+                <point x="7" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="509">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="1" y="-4">
+                </point>
+                <point x="1" y="3">
+                </point>
+                <point x="2.5" y="3.5">
+                </point>
+                <point x="7" y="3.5">
+                </point>
+                <point x="7" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    <object active="1" id="510">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="4.5" y="-4">
+                </point>
+                <point x="4.5" y="3.5">
+                </point>
+                <point x="5.5" y="4.5">
+                </point>
+                <point x="7.5" y="5.25">
+                </point>
+                <point x="8" y="5.25">
+                </point>
+                <point x="8" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    
+    <object active="1" id="402">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-8.5" y="0">
+                </point>
+                <point x="-8.5" y="3.5">
+                </point>
+                <point x="5" y="3.5">
+                </point>
+                <point x="5" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="511">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-6.5" y="-4">
+                </point>
+                <point x="-6.5" y="3.5">
+                </point>
+                <point x="-5.5" y="4.5">
+                </point>
+                <point x="5" y="4.5">
+                </point>
+                <point x="5" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    <object active="1" id="512">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1" y="-4">
+                </point>
+                <point x="-1" y="4.5">
+                </point>
+                <point x="2.75" y="5.5">
+                </point>
+                <point x="4" y="5.5">
+                </point>
+                <point x="4.5" y="4.5">
+                </point>
+                <point x="4.5" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    <object active="1" id="513">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="4" y="-4">
+                </point>
+                <point x="4" y="4.5">
+                </point>
+                <point x="5.5" y="4.5">
+                </point>
+                <point x="7.25" y="5.25">
+                </point>
+                <point x="8" y="5.25">
+                </point>
+                <point x="8" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    
+    <object active="1" id="403">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="2" y="-4">
+                </point>
+                <point x="2" y="4">
+                </point>
+                <point x="3.5" y="5.5">
+                </point>
+                <point x="3.5" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="404">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5" y="-4">
+                </point>
+                <point x="-9" y="4">
+                </point>
+                <point x="9" y="4">
+                </point>
+                <point x="5" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="405">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5" y="-4">
+                </point>
+                <point x="-9" y="4">
+                </point>
+                <point x="9" y="4">
+                </point>
+                <point x="5" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="406">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="1" y="-2">
+                </point>
+                <point x="-4" y="1">
+                </point>
+                <point x="-4" y="5.5">
+                </point>
+                <point x="2.5" y="7">
+                </point>
+                <point x="3.5" y="7">
+                </point>
+                <point x="4" y="6">
+                </point>
+                <point x="4" y="-2">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    
+    <object active="1" id="407">
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="501">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="4.25" y="-3.25">
+                </point>
+                <point x="4.25" y="4.75">
+                </point>
+                <point x="7.25" y="4.75">
+                </point>
+                <point x="7.25" y="-0.25">
+                </point>
+                <point x="5.25" y="-3.25">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="502">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="6.25" y="-0.25">
+                </point>
+                <point x="6.25" y="4.75">
+                </point>
+                <point x="7.25" y="5.25">
+                </point>
+                <point x="8.25" y="5.25">
+                </point>
+                <point x="8.25" y="3">
+                </point>
+                <point x="7.25" y="-0.25">
+                </point>
+                
+            </polygon>
+        </physic>
+    </object>
+    
+    
+    <object active="1" id="408">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5" y="-4">
+                </point>
+                <point x="-9" y="4">
+                </point>
+                <point x="9" y="4">
+                </point>
+                <point x="5" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="409">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5" y="-4">
+                </point>
+                <point x="-9" y="4">
+                </point>
+                <point x="9" y="4">
+                </point>
+                <point x="5" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="410">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5" y="-4">
+                </point>
+                <point x="-9" y="4">
+                </point>
+                <point x="9" y="4">
+                </point>
+                <point x="5" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="411">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5" y="-4">
+                </point>
+                <point x="-9" y="4">
+                </point>
+                <point x="9" y="4">
+                </point>
+                <point x="5" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="412">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5" y="-4">
+                </point>
+                <point x="-9" y="4">
+                </point>
+                <point x="9" y="4">
+                </point>
+                <point x="5" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="413">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5" y="-4">
+                </point>
+                <point x="-9" y="4">
+                </point>
+                <point x="9" y="4">
+                </point>
+                <point x="5" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    
+    <object active="1" id="414">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5" y="-4">
+                </point>
+                <point x="-9" y="4">
+                </point>
+                <point x="9" y="4">
+                </point>
+                <point x="5" y="-4">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island1.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    
+    <object active="1" id="450">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-12" y="-6">
+                </point>
+                <point x="-12" y="4.5">
+                </point>
+                <point x="5" y="4.5">
+                </point>
+                <point x="5" y="-6">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/island3.png" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="504">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-2" y="-6">
+                </point>
+                <point x="-2" y="4.5">
+                </point>
+                <point x="-1.5" y="5">
+                </point>
+                <point x="5.5" y="5.5">
+                </point>
+                <point x="6.5" y="4.5">
+                </point>
+                <point x="6.5" y="-6">
+                </point>
+            </polygon>
+        </physic>
+        
+    </object>
+    
+    
+    <!--Step Green begin-->
+    <object active="1" id="600">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1.7" y="0">
+                </point>
+                <point x="-1.7" y="1">
+                </point>
+                <point x="1.7" y="1">
+                </point>
+                <point x="1.7" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="601">
+        <physic type="static" subtype="cloud" x="0" y="0">
+            <polygon>
+                <point x="-1.7" y="0">
+                </point>
+                <point x="-1.7" y="1">
+                </point>
+                <point x="1.7" y="1">
+                </point>
+                <point x="1.7" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="602">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1.7" y="0">
+                </point>
+                <point x="-1.7" y="1">
+                </point>
+                <point x="1.7" y="1">
+                </point>
+                <point x="1.7" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="603">
+        <physic type="static" subtype="cloud" x="0" y="0">
+            <polygon>
+                <point x="-1.5" y="0">
+                </point>
+                <point x="-1.5" y="1">
+                </point>
+                <point x="1.5" y="1">
+                </point>
+                <point x="1.5" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="604">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1.7" y="0">
+                </point>
+                <point x="-1.7" y="1">
+                </point>
+                <point x="1.7" y="1">
+                </point>
+                <point x="1.7" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="605">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1.5" y="0">
+                </point>
+                <point x="-1.5" y="1">
+                </point>
+                <point x="1.5" y="1">
+                </point>
+                <point x="1.5" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="606">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1.5" y="0">
+                </point>
+                <point x="-1.5" y="1">
+                </point>
+                <point x="1.5" y="1">
+                </point>
+                <point x="1.5" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="607">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1.7" y="0">
+                </point>
+                <point x="-1.7" y="1">
+                </point>
+                <point x="1.7" y="1">
+                </point>
+                <point x="1.7" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="608">
+        <physic type="static" subtype="cloud" x="0" y="0">
+            <polygon>
+                <point x="-1.5" y="0">
+                </point>
+                <point x="-1.5" y="1">
+                </point>
+                <point x="1.5" y="1">
+                </point>
+                <point x="1.5" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="609">
+        <physic type="static" subtype="cloud" x="0" y="0">
+            <polygon>
+                <point x="-1.5" y="0">
+                </point>
+                <point x="-1.5" y="1">
+                </point>
+                <point x="1.5" y="1">
+                </point>
+                <point x="1.5" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="610">
+        <physic type="static" subtype="cloud" x="0" y="0">
+            <polygon>
+                <point x="-1.5" y="0">
+                </point>
+                <point x="-1.5" y="1">
+                </point>
+                <point x="1.5" y="1">
+                </point>
+                <point x="1.5" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="611">
+        <physic type="static" subtype="cloud" x="0" y="0">
+            <polygon>
+                <point x="-1.5" y="0">
+                </point>
+                <point x="-1.5" y="1">
+                </point>
+                <point x="1.5" y="1">
+                </point>
+                <point x="1.5" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="612">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1.7" y="0">
+                </point>
+                <point x="-1.7" y="1">
+                </point>
+                <point x="1.7" y="1">
+                </point>
+                <point x="1.7" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="613">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1.7" y="0">
+                </point>
+                <point x="-1.7" y="1">
+                </point>
+                <point x="1.7" y="1">
+                </point>
+                <point x="1.7" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="614">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1.7" y="0">
+                </point>
+                <point x="-1.7" y="1">
+                </point>
+                <point x="1.7" y="1">
+                </point>
+                <point x="1.7" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="615">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1.7" y="0">
+                </point>
+                <point x="-1.7" y="1">
+                </point>
+                <point x="1.7" y="1">
+                </point>
+                <point x="1.7" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level2/2_1/step.png" x="0" y="20"></sprite>
+        </graphic>
+    </object>
+    <!--Coins-->
+    <object active="1" id="800">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="801">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="802">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="803">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="804">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="805">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="806">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="807">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="808">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="809">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="810">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="811">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="812">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="813">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="814">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="815">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    
+    <object active="1" id="816">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="817">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="818">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="819">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="820">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="821">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="2">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="822">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="823">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="824">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="825">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="826">
+        <physic type="trigger" subtype="coin" x="0" y="0">
+            <config
+                kind="hp"
+                key="noteH">
+            </config>
+            <polygon>
+                <point x="-1" y="-1">
+                </point>
+                <point x="-1" y="1">
+                </point>
+                <point x="1" y="1">
+                </point>
+                <point x="1" y="-1">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/share/coin.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    <!---->
+    
+    <object active="1" id="900">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-0.5" y="16">
+                </point>
+                <point x="-0.5" y="-16">
+                </point>
+                <point x="0.5" y="-16">
+                </point>
+                <point x="0.5" y="16">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="901">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-0.5" y="16">
+                </point>
+                <point x="-0.5" y="-16">
+                </point>
+                <point x="0.5" y="-16">
+                </point>
+                <point x="0.5" y="16">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="902">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-0.5" y="16">
+                </point>
+                <point x="-0.5" y="-16">
+                </point>
+                <point x="0.5" y="-16">
+                </point>
+                <point x="0.5" y="16">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="903">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-4" y="0">
+                </point>
+                <point x="-4" y="-3">
+                </point>
+                <point x="1.5" y="-3">
+                </point>
+                <point x="1.5" y="0">
+                </point>
+            </polygon>
+        </physic>
+        <graphic type="foreground" x="0" y="0" z="10">
+            <sprite path="textures/scenes/world/musicBox/closeBox.png" x="-90" y="40"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="0" id="923">
+        <graphic type="foreground" x="0" y="0" z="10">
+            <sprite path="textures/scenes/world/musicBox/openBox.png" x="-6" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="904">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-4" y="-0.5">
+                </point>
+                <point x="-4" y="-3">
+                </point>
+                <point x="1.5" y="-3">
+                </point>
+                <point x="1.5" y="-0.5">
+                </point>
+            </polygon>
+        </physic>
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/musicBox/closeBox.png" x="-90" y="40"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="0" id="924">
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/musicBox/openBox.png" x="-6" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="905">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-2" y="2">
+                </point>
+                <point x="-2" y="-2">
+                </point>
+                <point x="2" y="-2">
+                </point>
+                <point x="2" y="2">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <!--wall
+     <object active="1" id="906">
+     <physic type="trigger" subtype="portal" x="0" y="0">
+     <polygon>
+     <point x="-2" y="10">
+     </point>
+     <point x="-2" y="-10">
+     </point>
+     <point x="2" y="-10">
+     </point>
+     <point x="2" y="10">
+     </point>
+     </polygon>
+     </physic>
+     </object>
+     
+     <object active="0" id="907">
+     <physic type="static" subtype="ground" x="0" y="0">
+     <polygon>
+     <point x="-1" y="3">
+     </point>
+     <point x="-1" y="-3">
+     </point>
+     <point x="1" y="-3">
+     </point>
+     <point x="1" y="3">
+     </point>
+     </polygon>
+     </physic>
+     </object>
+     -->
+    
+    <object active="1" id="908">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-1" y="5">
+                </point>
+                <point x="-1" y="-5">
+                </point>
+                <point x="1" y="-5">
+                </point>
+                <point x="1" y="5">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="909">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-1" y="12">
+                </point>
+                <point x="-1" y="-5">
+                </point>
+                <point x="1" y="-5">
+                </point>
+                <point x="1" y="12">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="2000">
+        <physic type="static" subtype="trampoline" x="0" y="0">
+            <config power="100" ceiling="30" />
+            <polygon>
+                <point x="-3" y="0">
+                </point>
+                <point x="-3" y="0.5">
+                </point>
+                <point x="3.5" y="0.5">
+                </point>
+                <point x="3.5" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level1/1_1/1cloud.png" x="0" y="50"></sprite>
+        </graphic>
+    </object>
+    
+    
+    
+    <object active="1" id="2001">
+        <physic type="static" subtype="trampoline" x="0" y="0">
+            <config power="100" ceiling="30" />
+            <polygon>
+                <point x="-3" y="0">
+                </point>
+                <point x="-3" y="0.5">
+                </point>
+                <point x="3.5" y="0.5">
+                </point>
+                <point x="3.5" y="0">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/level1/1_1/1cloud.png" x="0" y="50"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="2500">
+        <graphic type="foreground" x="16" y="12" z="-1">
+            <sprite path="textures/scenes/world/backgrounds/castle.jpg" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="2501">
+        <graphic type="foreground" x="16" y="12" z="-1">
+            <sprite path="textures/scenes/world/backgrounds/castle.jpg" x="0" y="0"></sprite>
+        </graphic>
+    </object>
+    
+    <!-- PORTAL end -->
+    
+    <object active="1" id="950">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="951">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="952">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="953">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="954">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="955">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="956">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="957">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="958">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="959">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="960">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="961">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="962">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="963">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="964">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-16" y="-1">
+                </point>
+                <point x="-16" y="1">
+                </point>
+                <point x="16" y="1">
+                </point>
+                <point x="16" y="-1">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="4000">
+        <graphic type="foreground" x="0" y="0" z="2005">
+            <sprite path="textures/scenes/world/backgrounds/pass.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="4001">
+        <graphic type="foreground" x="0" y="0" z="-1">
+            <sprite path="textures/scenes/world/backgrounds/transition_3.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="4002">
+        <graphic type="foreground" x="0" y="0" z="2006">
+            <sprite path="textures/scenes/world/backgrounds/upwards.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="4003">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-2.5" y="-5">
+                </point>
+                <point x="-2.5" y="5">
+                </point>
+                <point x="2.5" y="5">
+                </point>
+                <point x="2.5" y="-5">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="4004">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-5" y="-2">
+                </point>
+                <point x="-5" y="3">
+                </point>
+                <point x="2" y="3">
+                </point>
+                <point x="2" y="-2">
+                </point>
+            </polygon>
+        </physic>
+        
+        <graphic type="foreground" x="0" y="0" z="5">
+            <sprite path="textures/scenes/world/backgrounds/island3.png"  x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="4005">
+        <graphic type="foreground" x="0" y="0" z="0">
+            <sprite path="textures/scenes/world/backgrounds/upwards.png" x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="4006">
+        <graphic type="foreground" x="0" y="0" z="6">
+            <sprite path="textures/scenes/world/backgrounds/entrance3.png"  x="3.9" y="27" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="6000">
+        <physic type="trigger" subtype="areaSwitcher" x="0" y="0">
+            <polygon>
+                <point x="-1" y="-12">
+                </point>
+                <point x="-1" y="12">
+                </point>
+                <point x="1" y="12">
+                </point>
+                <point x="1" y="-12">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="6001">
+        <physic type="trigger" subtype="areaSwitcher" x="0" y="0">
+            <polygon>
+                <point x="-1" y="-12">
+                </point>
+                <point x="-1" y="12">
+                </point>
+                <point x="1" y="12">
+                </point>
+                <point x="1" y="-12">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="6002">
+        <physic type="trigger" subtype="areaSwitcher" x="0" y="0">
+            <polygon>
+                <point x="-1" y="-12">
+                </point>
+                <point x="-1" y="12">
+                </point>
+                <point x="1" y="12">
+                </point>
+                <point x="1" y="-12">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="6003">
+        <physic type="trigger" subtype="areaSwitcher" x="0" y="0">
+            <polygon>
+                <point x="-1" y="-12">
+                </point>
+                <point x="-1" y="12">
+                </point>
+                <point x="1" y="12">
+                </point>
+                <point x="1" y="-12">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="6005">
+        <physic type="trigger" subtype="portal" x="0" y="0">
+            <polygon>
+                <point x="-21" y="-24">
+                </point>
+                <point x="-21" y="12">
+                </point>
+                <point x="25" y="12">
+                </point>
+                <point x="25" y="-24">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="1" id="33000">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1" y="-12">
+                </point>
+                <point x="-1" y="12">
+                </point>
+                <point x="1" y="12">
+                </point>
+                <point x="1" y="-12">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <object active="0" id="33001">
+        <physic type="static" subtype="ground" x="0" y="0">
+            <polygon>
+                <point x="-1" y="-3">
+                </point>
+                <point x="-1" y="3">
+                </point>
+                <point x="1" y="3">
+                </point>
+                <point x="1" y="-3">
+                </point>
+            </polygon>
+        </physic>
+    </object>
+    
+    <!-- low RAM device's-->
+    <object active="0" id="1605">
+        <graphic type="foreground" x="0" y="0.2" z="2001">
+            <sprite path="textures/scenes/world/level3/guard1Sleep.png" x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="0" id="1606">
+        <graphic type="foreground" x="0" y="0.2" z="0">
+            <sprite path="textures/scenes/world/level3/guard2Sleep.png" x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="0" id="1607">
+        <graphic type="foreground" x="0" y="0.2" z="0">
+            <sprite path="textures/scenes/world/level3/guard3Sleep.png" x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="1" id="1500">
+        <graphic type="animation" x="0" y="0.2" z="2001">
+            <animations>
+                <animation name="wait" speedFPS="30" pathPList="textures/mobs/guardians/guard1/guard1_wait.plist" pathSprite="textures/mobs/guardians/guard1/guard1_wait.png" viewPartAnim="-1" />
+                <animation name="run" speedFPS="30" pathPList="textures/mobs/guardians/guard1/guard1_run.plist" pathSprite="textures/mobs/guardians/guard1/guard1_run.png" viewPartAnim="-1" />
+                <animation name="attack" speedFPS="30" pathPList="textures/mobs/guardians/guard1/guard1_attack.plist" pathSprite="textures/mobs/guardians/guard1/guard1_attack.png" viewPartAnim="-1" />
+                <animation name="joy" speedFPS="30" pathPList="textures/mobs/guardians/guard1/guard1_joy.plist" pathSprite="textures/mobs/guardians/guard1/guard1_joy.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+    </object>
+    
+    <object active="1" id="1501">
+        <graphic type="animation" x="0" y="0.2" z="0">
+            <animations>
+                <animation name="wait" speedFPS="20" pathPList="textures/mobs/guardians/guard2/guard2_wait.plist" pathSprite="textures/mobs/guardians/guard2/guard2_wait.png" viewPartAnim="-1" />
+                <animation name="run" speedFPS="30" pathPList="textures/mobs/guardians/guard2/guard2_run.plist" pathSprite="textures/mobs/guardians/guard2/guard2_run.png" viewPartAnim="-1" />
+                <animation name="attack" speedFPS="30" pathPList="textures/mobs/guardians/guard2/guard2_attack.plist" pathSprite="textures/mobs/guardians/guard2/guard2_attack.png" viewPartAnim="-1" />
+                <animation name="joy" speedFPS="30" pathPList="textures/mobs/guardians/guard2/guard2_joy.plist" pathSprite="textures/mobs/guardians/guard2/guard2_joy.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+    </object>
+    
+    <object active="1" id="1502">
+        <graphic type="animation" x="0" y="0.2" z="0">
+            <animations>
+                <animation name="wait" speedFPS="20" pathPList="textures/mobs/guardians/guard3/guard3_wait.plist" pathSprite="textures/mobs/guardians/guard3/guard3_wait.png" viewPartAnim="-1" />
+                <animation name="run" speedFPS="30" pathPList="textures/mobs/guardians/guard3/guard3_run.plist" pathSprite="textures/mobs/guardians/guard3/guard3_run.png" viewPartAnim="-1" />
+                <animation name="attack" speedFPS="30" pathPList="textures/mobs/guardians/guard3/guard3_attack.plist" pathSprite="textures/mobs/guardians/guard3/guard3_attack.png" viewPartAnim="-1" />
+                <animation name="joy" speedFPS="30" pathPList="textures/mobs/guardians/guard3/guard3_joy.plist" pathSprite="textures/mobs/guardians/guard3/guard3_joy.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+    </object>
+    
+    <object active="0" id="1600">
+        <graphic type="foreground" x="0" y="0" z="2002">
+            <sprite path="textures/scenes/world/level3/guard1.png" x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="0" id="1601">
+        <graphic type="foreground" x="0" y="0" z="5">
+            <sprite path="textures/scenes/world/level3/guard2.png" x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="0" id="1602">
+        <graphic type="foreground" x="0" y="0" z="5">
+            <sprite path="textures/scenes/world/level3/guard3.png" x="0" y="0" ></sprite>
+        </graphic>
+    </object>
+    
+    <object active="0" id="1700">
+        <graphic type="npcBatAnimation" x="0" y="0" z="2001">
+            <animations>
+                <animation name="wait" speedFPS="20" pathPList="textures/mobs/bat/bat_wait.plist" pathSprite="textures/mobs/bat/bat_wait.png" viewPartAnim="-1" />
+                <animation name="run" speedFPS="30" pathPList="textures/mobs/bat/bat_run.plist" pathSprite="textures/mobs/bat/bat_run.png" viewPartAnim="-1" />
+            </animations>
+        </graphic>
+        
+        <ai type="npcBat">
+        </ai>
+    </object>
+</levelObjects>
