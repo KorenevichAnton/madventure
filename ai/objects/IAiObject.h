@@ -41,11 +41,7 @@ public:
     
 protected:
     IAiObject();
-    IAiObject( const IAiObject& ){};
-    ~IAiObject();
-    
-    IAiObject& operator=( const IAiObject& ){ return *this; }
-    
+    ~IAiObject();    
     
 protected:
     AiObjectType            type;
